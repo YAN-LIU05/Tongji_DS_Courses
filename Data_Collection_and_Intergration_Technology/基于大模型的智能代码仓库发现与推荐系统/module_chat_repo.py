@@ -9,7 +9,7 @@ import pymysql
 # 配置
 # =========================
 # DeepSeek 配置
-API_KEY = "sk-78af31159c2a40738385e8cee354fd34" # 记得换回你的 Key
+API_KEY = "sk-" # 记得换回你的 Key
 API_URL = "https://api.deepseek.com/chat/completions"
 
 # 数据库配置 (读取 README 用)

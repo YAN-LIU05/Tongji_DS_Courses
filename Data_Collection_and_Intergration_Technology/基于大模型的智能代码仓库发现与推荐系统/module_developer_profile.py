@@ -7,7 +7,7 @@ import pandas as pd  # 引入 pandas 用于历史记录展示
 # =========================
 # 1. 配置区域
 # =========================
-API_KEY = "sk-78af31159c2a40738385e8cee354fd34"
+API_KEY = "sk-"
 API_URL = "https://api.deepseek.com/chat/completions"
 
 # 【强烈建议】填写 Token，否则查用户 Repo 很容易 403

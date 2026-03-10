@@ -10,7 +10,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 # =========================
 # 1. 配置区域
 # =========================
-API_KEY = "sk-78af31159c2a40738385e8cee354fd34"  # DeepSeek Key
+API_KEY = "sk-"  # DeepSeek Key
 API_URL = "https://api.deepseek.com/chat/completions"
 
 # 【强烈建议】填入 GitHub Token，否则搜索极易被限流 (403错误)

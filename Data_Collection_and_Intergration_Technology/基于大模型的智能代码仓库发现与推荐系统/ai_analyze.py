@@ -7,7 +7,7 @@ import re
 # =========================
 # 配置
 # =========================
-API_KEY = "sk-78af31159c2a40738385e8cee354fd34"  # 【注意】这里填入你的新 Key
+API_KEY = "sk-"  # 【注意】这里填入你的新 Key
 API_URL = "https://api.deepseek.com/chat/completions"
 
 DB_CONFIG = {
