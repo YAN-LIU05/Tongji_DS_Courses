@@ -1,0 +1,47 @@
+obclient -uroot@sys -h127.1 -P2881;
+
+create database Major;
+use Major;
+
+CREATE TABLE Players (
+    Sno VARCHAR(10),
+    Sname VARCHAR(20) UNIQUE,
+    Ssex VARCHAR(1),
+    Sage SMALLINT,
+    Steam VARCHAR(20),
+    PRIMARY KEY (Sno)
+);
+desc Players;
+
+INSERT INTO Players (Sno, Sname, Ssex, Sage, Steam) VALUES 
+('200215121', 'LuLu', 'M', 27, 'G2'),
+('200215122', 'TiMo', 'M', 18, 'G2');
+
+CREATE USER 'Jay'@'127.0.0.1' IDENTIFIED BY '2352018';
+GRANT CREATE ON *.* TO 'Jay'@'127.0.0.1';
+GRANT GRANT OPTION ON *.* TO 'Jay'@'127.0.0.1';
+FLUSH PRIVILEGES;
+
+SELECT user, host FROM mysql.user WHERE user = 'Jay';
+
+exit;
+
+obclient -uJay -p2352018 -h127.1 -P2881;
+
+SELECT * FROM Major.Players;
+
+GRANT SELECT, INSERT, UPDATE ON Major.Players TO 'Jay'@'127.0.0.1';
+GRANT SELECT, INSERT, UPDATE ON Major.Players TO 'Jay'@'127.0.0.1' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+SELECT * FROM Major.Players;
+
+INSERT INTO Major.Players (Sno, Sname, Ssex, Sage, Steam) 
+VALUES ('200215123', 'ZywOo', 'M', 23, 'Vit');
+SELECT * FROM Major.Players;
+
+obclient -uroot@sys -h127.1 -P2881;
+
+DROP USER 'Jay'@'127.0.0.1';
+
+SELECT user, host FROM mysql.user WHERE user = 'Jay';

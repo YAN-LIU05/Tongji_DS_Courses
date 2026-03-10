@@ -1,0 +1,10 @@
+streamlit-echarts
+streamlit
+beautifulsoup4
+requests
+emoji
+pymysql
+sentence_transformers
+chromadb
+streamlit-option-menu
+cryptography

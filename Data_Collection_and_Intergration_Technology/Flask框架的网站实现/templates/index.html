@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>书籍列表</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #searchInput {
+            width: 50%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        thead th {
+            background-color: #3498db;
+            color: white;
+            cursor: pointer;
+            user-select: none; /* 防止文字被选中 */
+        }
+        thead th:hover {
+            background-color: #2980b9;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+        .sort-indicator {
+            float: right;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>书籍信息展示</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="按书名或分类搜索...">
+        </div>
+        <table id="bookTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)">序号 <span class="sort-indicator">↕</span></th>
+                    <th onclick="sortTable(1)">书名 <span class="sort-indicator">↕</span></th>
+                    <th onclick="sortTable(2)">分类 <span class="sort-indicator">↕</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for book in books %}
+                <tr>
+                    <td>{{ book.id }}</td>
+                    <td>{{ book.title }}</td>
+                    <td>{{ book.category }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function filterTable() {
+            // 获取输入框和表格
+            const input = document.getElementById("searchInput");
+            const filter = input.value.toUpperCase();
+            const table = document.getElementById("bookTable");
+            const tr = table.getElementsByTagName("tr");
+
+            // 循环遍历所有表格行，隐藏不匹配的行
+            for (let i = 1; i < tr.length; i++) { // 从1开始，跳过表头
+                const tdTitle = tr[i].getElementsByTagName("td")[1];
+                const tdCategory = tr[i].getElementsByTagName("td")[2];
+                if (tdTitle || tdCategory) {
+                    const titleText = tdTitle.textContent || tdTitle.innerText;
+                    const categoryText = tdCategory.textContent || tdCategory.innerText;
+                    if (titleText.toUpperCase().indexOf(filter) > -1 || categoryText.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+
+        function sortTable(columnIndex) {
+            const table = document.getElementById("bookTable");
+            let switching = true;
+            // 设置排序方向为升序
+            let dir = "asc";
+            let switchcount = 0;
+
+            while (switching) {
+                switching = false;
+                const rows = table.rows;
+                for (let i = 1; i < (rows.length - 1); i++) {
+                    let shouldSwitch = false;
+                    const x = rows[i].getElementsByTagName("TD")[columnIndex];
+                    const y = rows[i + 1].getElementsByTagName("TD")[columnIndex];
+                    
+                    let xContent = x.innerHTML.toLowerCase();
+                    let yContent = y.innerHTML.toLowerCase();
+
+                    // 如果是序号列，则按数字比较
+                    if (columnIndex === 0) {
+                        xContent = parseInt(xContent);
+                        yContent = parseInt(yContent);
+                    }
+
+                    if (dir == "asc") {
+                        if (xContent > yContent) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    } else if (dir == "desc") {
+                        if (xContent < yContent) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                }
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                    switchcount++;
+                } else {
+                    if (switchcount == 0 && dir == "asc") {
+                        dir = "desc";
+                        switching = true;
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

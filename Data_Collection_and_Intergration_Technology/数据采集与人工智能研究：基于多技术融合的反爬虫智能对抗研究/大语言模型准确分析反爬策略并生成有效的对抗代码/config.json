@@ -1,0 +1,5 @@
+{
+  "deepseek_api_key": "sk-78af31159c2a40738385e8cee354fd34",
+  "default_framework": "requests",
+  "output_dir": "output"
+}

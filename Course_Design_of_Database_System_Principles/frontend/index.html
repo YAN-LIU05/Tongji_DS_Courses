@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shanghai-tourism-system</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <script type="text/javascript">
+    // 请确保在你自己的项目中，将 '你的Key' 和 '你的安全密钥' 替换为你的实际密钥
+    window._AMapSecurityConfig = {
+      securityJsCode:'441f426295e156a89bda4abb40c21b88',
+    }
+  </script>
+  <script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=9cb80932d0372166501013207834e342&plugin=AMap.PlaceSearch,AMap.Geocoder,AMap.InfoWindow"></script> 
+  <!-- AMap.PlaceSearch 用于地点搜索，AMap.Geocoder 用于地理编码，AMap.InfoWindow 用于信息窗体 -->
+  </body>
+</html>

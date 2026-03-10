@@ -1,0 +1,33 @@
+create table t(id int, age int); 
+create table t(id int, name char); 
+drop table t; 
+create table t(id int, name char);
+
+
+CREATE TABLE t1 (
+    id INT,
+    age INT
+);
+
+INSERT INTO t1 VALUES (1, 12);
+INSERT INTO t1 VALUES (2, 8);
+
+CREATE TABLE t2 (
+    id INT,
+    name CHAR(10)
+);
+
+INSERT INTO t2 VALUES (1, 'Tom');
+INSERT INTO t2 VALUES (3, 'Jerry');
+
+CREATE TABLE t3 (
+    id INT,
+    score INT
+);
+
+INSERT INTO t3 VALUES (1, 100);
+INSERT INTO t3 VALUES (2, 95);
+
+select * from t1,t2; 
+select * from t1,t2 where t1.id=t2.id and t1.age > 10; 
+select * from t1,t2,t3;

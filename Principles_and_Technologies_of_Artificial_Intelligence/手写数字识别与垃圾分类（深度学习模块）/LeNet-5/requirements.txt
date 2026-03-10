@@ -1,0 +1,6 @@
+numpy
+matplotlib
+tqdm
+--extra-index-url https://pypi.tuna.tsinghua.edu.cn/simple
+--trusted-host ms-release.obs.cn-north-4.myhuaweicloud.com
+https://ms-release.obs.cn-north-4.myhuaweicloud.com/2.5.0/MindSpore/cpu/x86_64/mindspore-2.5.0-cp310-cp310-win_amd64.whl

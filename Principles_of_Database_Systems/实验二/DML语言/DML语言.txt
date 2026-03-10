@@ -1,0 +1,129 @@
+obclient -uroot@sys -h127.1 -P2881;
+
+create database exp2;
+use exp2;
+
+CREATE TABLE category (
+    No INTEGER NOT NULL,
+    Name VARCHAR(50) NOT NULL,
+    PRIMARY KEY (No)
+);
+desc category;
+
+
+CREATE TABLE books (
+    No INTEGER NOT NULL,
+    Title VARCHAR(100) NOT NULL,
+    Author VARCHAR(50) NOT NULL,
+    publication_year INTEGER NOT NULL,
+    C_no INTEGER NOT NULL,
+    PRIMARY KEY (No),
+    FOREIGN KEY (C_no) REFERENCES category(No)
+);
+desc books;
+
+CREATE TABLE readers (
+    No INTEGER NOT NULL,
+    Name VARCHAR(50) NOT NULL,
+    Gender VARCHAR(10) NOT NULL CHECK (Gender IN ('Male', 'Female')),
+    Tel VARCHAR(15) NOT NULL,
+    PRIMARY KEY (No)
+);
+desc readers;
+
+CREATE TABLE borrow_records (
+    No INTEGER NOT NULL,
+    B_no INTEGER NOT NULL,
+    R_no INTEGER NOT NULL,
+    Borrow_date DATE NOT NULL,
+    Return_date DATE,
+    PRIMARY KEY (No),
+    FOREIGN KEY (B_no) REFERENCES books(No),
+    FOREIGN KEY (R_no) REFERENCES readers(No)
+);
+desc borrow_records;
+
+INSERT INTO category (No, Name) VALUES
+(1, '计算机'),
+(2, '文学'),
+(3, '历史'),
+(4, '科学');
+
+INSERT INTO books (No, Title, Author, publication_year, C_no) VALUES
+(1, 'Python编程实战', '张三', 2021, 1),
+(2, '百年孤独', '加西亚·马尔克斯', 1967, 2),
+(3, '明朝那些事儿', '当年明月', 2006, 3),
+(4, '时间简史', '霍金', 1988, 4),
+(5, 'Java核心技术', 'K.S.霍斯特曼', 2019, 1);
+
+INSERT INTO readers (No, Name, Gender, Tel) VALUES
+(1, '小明', 'Male', '13800138000'),
+(2, '小红', 'Female', '13900139000'),
+(3, '小刚', 'Male', '13600136000'),
+(4, '小美', 'Female', '13700137000'),
+(5, '小强', 'Male', '13300133000');
+
+INSERT INTO borrow_records (No, B_no, R_no, Borrow_date, Return_date) VALUES
+(1, 1, 1, '2024-10-01', '2024-10-20'),
+(2, 2, 2, '2024-10-05', '2024-10-25'),
+(3, 1, 3, '2024-10-10', '2024-10-30'),
+(4, 3, 4, '2024-10-15', '2024-11-01'),
+(5, 2, 5, '2024-10-20', NULL);
+
+SELECT Title, publication_year
+FROM books
+WHERE publication_year > 2020;
+
+SELECT r.Name, r.Tel
+FROM readers r
+JOIN borrow_records br ON r.No = br.R_no
+WHERE br.B_no = 3;
+
+SELECT *
+FROM books
+WHERE Author LIKE '%张%';
+
+SELECT r.Name, b.Title, br.Borrow_date, br.Return_date
+FROM readers r
+JOIN borrow_records br ON r.No = br.R_no
+JOIN books b ON br.B_no = b.No
+WHERE r.Gender = 'Male'
+ORDER BY br.Borrow_date ASC;
+
+SELECT COUNT(*) AS Female_Count
+FROM readers
+WHERE Gender = 'Female';
+
+SELECT r.Name, b.Title
+FROM readers r
+JOIN borrow_records br ON r.No = br.R_no
+JOIN books b ON br.B_no = b.No
+WHERE DATEDIFF(br.Return_date, br.Borrow_date) > 15;
+
+INSERT INTO borrow_records (No, B_no, R_no, Borrow_date, Return_date)
+VALUES (6, 5, 5, '2025-03-24', NULL);
+
+SELECT br.B_no
+FROM borrow_records br
+WHERE br.Return_date IS NOT NULL
+GROUP BY br.B_no
+HAVING AVG(DATEDIFF(br.Return_date, br.Borrow_date)) > 15;
+
+SELECT DISTINCT R_no
+FROM borrow_records
+WHERE B_no = 1 OR B_no = 2;
+
+SELECT DISTINCT br1.R_no
+FROM borrow_records br1
+JOIN borrow_records br2 ON br1.R_no = br2.R_no
+WHERE br1.B_no = 1 AND br2.B_no = 3;
+
+CREATE VIEW book_details AS
+SELECT b.Title AS stitle, 
+       b.Author AS sauthor, 
+       b.publication_year AS spublicationyear, 
+       c.Name AS categoryname
+FROM books b
+JOIN category c ON b.C_no = c.No;
+
+SELECT * FROM book_details;
