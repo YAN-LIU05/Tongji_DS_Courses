@@ -1,0 +1,11 @@
+celery
+django
+django-debug-toolbar
+djangorestframework
+django-filter
+django-cors-headers
+django-extensions
+mysqlclient
+drf-spectacular
+pillow 
+pymysql

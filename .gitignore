@@ -1,0 +1,7 @@
+# Local SSH identity material
+/Object_Oriented_Programming/开学大礼包/id_rsa_3072.pub
+
+# Local environment files
+.env
+.env.*
+!.env.example

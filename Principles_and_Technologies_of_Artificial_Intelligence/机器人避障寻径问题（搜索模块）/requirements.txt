@@ -1,0 +1,8 @@
+numpy
+heapq
+matplotlib
+time
+scikit-learn
+tqdm
+torch==2.6.0+cu118 
+torchvision==0.21.0+cu118

@@ -1,0 +1,41 @@
+{
+  "risk_level": "medium",
+  "strategies": [
+    "JavaScript动态渲染",
+    "内容动态加载",
+    "请求参数验证",
+    "User-Agent检测",
+    "Cookie验证",
+    "请求频率限制"
+  ],
+  "recommendations": [
+    {
+      "method": "使用Selenium或Playwright等无头浏览器",
+      "reason": "网站依赖JavaScript动态渲染内容，传统HTTP请求无法获取完整数据"
+    },
+    {
+      "method": "设置合理的请求间隔（建议3-5秒）",
+      "reason": "避免触发频率限制，模拟人类浏览行为"
+    },
+    {
+      "method": "使用真实浏览器User-Agent并定期轮换",
+      "reason": "绕过基础的User-Agent检测"
+    },
+    {
+      "method": "维护会话Cookie",
+      "reason": "部分内容可能需要有效的会话状态"
+    },
+    {
+      "method": "分析XHR/API请求直接获取数据",
+      "reason": "网站可能通过API接口动态加载天气数据，效率高于渲染整个页面"
+    },
+    {
+      "method": "使用代理IP池（低频率需求时可选）",
+      "reason": "防止单个IP被限制，但该网站对低频爬虫相对宽容"
+    },
+    {
+      "method": "遵守robots.txt（仅包含基本限制）",
+      "reason": "该网站robots.txt限制较少，但仍需遵守"
+    }
+  ]
+}

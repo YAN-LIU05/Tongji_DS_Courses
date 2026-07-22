@@ -1,0 +1,30 @@
+{
+  "source": "github_api",
+  "collected_at": "2026-05-11T18:12:12.601017+00:00",
+  "repo_count": 200,
+  "failed_repo_count": 0,
+  "failed_repos": [],
+  "next_steps": [
+    "scripts/clean_data.py",
+    "scripts/build_features.py",
+    "scripts/train_models.py",
+    "scripts/build_text_features.py"
+  ],
+  "cleaned_at": "2026-05-11T18:12:55.610838+00:00",
+  "featured_at": "2026-05-11T18:13:07.661147+00:00",
+  "trained_at": "2026-05-11T18:53:28.239563+00:00",
+  "model_files": [
+    "models/scaler.pkl",
+    "models/kmeans.pkl",
+    "models/pca.pkl",
+    "models/isolation_forest.pkl"
+  ],
+  "text_built_at": "2026-05-11T18:53:53.422343+00:00",
+  "star_growth_built_at": "2026-05-11T18:15:38.090941+00:00",
+  "star_growth_rows": 200,
+  "model_metrics_file": "data/processed/model_metrics.csv",
+  "cluster_profiles_file": "data/processed/cluster_profiles.csv",
+  "text_similarity_file": "data/processed/text_similarity.csv",
+  "text_embedding_file": "data/processed/text_embeddings.npy",
+  "text_similarity_rows": 40000
+}

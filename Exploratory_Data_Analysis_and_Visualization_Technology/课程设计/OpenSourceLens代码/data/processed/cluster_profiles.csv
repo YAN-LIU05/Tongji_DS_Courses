@@ -1,0 +1,5 @@
+cluster,project_count,representative_repo,avg_popularity_score,avg_activity_score,avg_health_score,avg_globalization_score,avg_stars,avg_forks,avg_contributors,cluster_label,description
+0,64,vuejs/core,0.384091,0.414447,0.561949,0.30597,6694.8,1097.8,16.0,均衡观察型,均衡观察型，代表项目为 vuejs/core；建议结合热度、活跃度、健康度和国际化均值解释该类项目的生态位置。
+1,64,getsentry/sentry,0.434589,0.347875,0.341252,0.329408,8571.67,1189.25,16.14,健康风险型,健康风险型，代表项目为 getsentry/sentry；建议结合热度、活跃度、健康度和国际化均值解释该类项目的生态位置。
+2,20,tensorflow/tensorflow,0.786423,0.796186,0.616232,0.596725,61085.7,16635.8,40.0,头部活跃型,头部活跃型，代表项目为 tensorflow/tensorflow；建议结合热度、活跃度、健康度和国际化均值解释该类项目的生态位置。
+3,52,flutter/flutter,0.789243,0.420149,0.34704,0.412826,63788.25,14253.65,19.63,高热度维护压力型,高热度维护压力型，代表项目为 flutter/flutter；建议结合热度、活跃度、健康度和国际化均值解释该类项目的生态位置。

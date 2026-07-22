@@ -1,0 +1,1140 @@
+repo,login,country,city,lat,lon,contributions
+pytorch/pytorch,ezyang,United States,New York,40.7128,-74.006,3489
+pytorch/pytorch,soumith,United States,New York,40.7128,-74.006,1155
+pytorch/pytorch,peterbell10,United Kingdom,London,51.5072,-0.1276,890
+pytorch/pytorch,apaszke,Germany,Berlin,52.52,13.405,886
+pytorch/pytorch,colesbury,United States,New York,40.7128,-74.006,661
+pytorch/pytorch,vkuzo,United States,New York,40.7128,-74.006,499
+tensorflow/tensorflow,ezhulenev,United States,San Francisco,37.7749,-122.4194,2837
+tensorflow/tensorflow,mihaimaruseac,United States,San Francisco,37.7749,-122.4194,1555
+tensorflow/tensorflow,yongtang,United States,San Francisco,37.7749,-122.4194,1448
+tensorflow/tensorflow,mrry,United States,San Francisco,37.7749,-122.4194,1241
+tensorflow/tensorflow,d0k,Germany,Berlin,52.52,13.405,939
+tensorflow/tensorflow,martinwicke,United States,San Francisco,37.7749,-122.4194,801
+tensorflow/tensorflow,yifeif,United States,San Francisco,37.7749,-122.4194,788
+tensorflow/tensorflow,ddunl,United States,San Francisco,37.7749,-122.4194,714
+tensorflow/tensorflow,jreiffers,Germany,Berlin,52.52,13.405,671
+tensorflow/tensorflow,jsimsa,United States,San Francisco,37.7749,-122.4194,668
+tensorflow/tensorflow,beckerhe,Germany,Berlin,52.52,13.405,537
+huggingface/transformers,ydshieh,France,Paris,48.8566,2.3522,1400
+huggingface/transformers,LysandreJik,France,Paris,48.8566,2.3522,1099
+huggingface/transformers,gante,United Kingdom,London,51.5072,-0.1276,594
+huggingface/transformers,stas00,Canada,Toronto,43.6532,-79.3832,517
+huggingface/transformers,ArthurZucker,France,Paris,48.8566,2.3522,457
+huggingface/transformers,zucchini-nlp,France,Paris,48.8566,2.3522,431
+huggingface/transformers,Cyrilvallez,United States,San Francisco,37.7749,-122.4194,353
+huggingface/transformers,sshleifer,United States,New York,40.7128,-74.006,281
+huggingface/transformers,amyeroberts,United Kingdom,London,51.5072,-0.1276,234
+huggingface/transformers,patil-suraj,India,Bangalore,12.9716,77.5946,201
+huggingface/transformers,VictorSanh,United States,New York,40.7128,-74.006,195
+huggingface/transformers,sanchit-gandhi,United Kingdom,London,51.5072,-0.1276,149
+huggingface/transformers,MekkCyber,France,Paris,48.8566,2.3522,139
+huggingface/transformers,mfuntowicz,France,Paris,48.8566,2.3522,132
+huggingface/transformers,jplu,France,Paris,48.8566,2.3522,113
+huggingface/transformers,aaugustin,France,Paris,48.8566,2.3522,95
+huggingface/transformers,faaany,China,Shanghai,31.2304,121.4737,85
+huggingface/transformers,stefan-it,Germany,Berlin,52.52,13.405,85
+huggingface/transformers,yao-matrix,China,Shanghai,31.2304,121.4737,83
+huggingface/transformers,remi-or,France,Paris,48.8566,2.3522,83
+huggingface/transformers,rlouf,France,Paris,48.8566,2.3522,83
+langchain-ai/langchain,cbornet,France,Paris,48.8566,2.3522,397
+langchain-ai/langchain,leo-gan,Canada,Toronto,43.6532,-79.3832,379
+langchain-ai/langchain,nfcampos,United Kingdom,London,51.5072,-0.1276,351
+langchain-ai/langchain,jacoblee93,United States,San Francisco,37.7749,-122.4194,151
+langchain-ai/langchain,eltociear,Japan,Tokyo,35.6762,139.6503,67
+langchain-ai/langchain,agola11,United States,San Francisco,37.7749,-122.4194,50
+langchain-ai/langchain,sepiatone,United States,San Francisco,37.7749,-122.4194,43
+langchain-ai/langchain,ZhangShenao,China,Beijing,39.9042,116.4074,42
+langchain-ai/langchain,chyroc,China,Beijing,39.9042,116.4074,35
+langchain-ai/langchain,vbarda,United States,New York,40.7128,-74.006,33
+langchain-ai/langchain,pprados,France,Paris,48.8566,2.3522,32
+langchain-ai/langchain,ShorthillsAI,India,Bangalore,12.9716,77.5946,30
+numpy/numpy,charris,United States,San Francisco,37.7749,-122.4194,7212
+numpy/numpy,cournape,Japan,Tokyo,35.6762,139.6503,1525
+numpy/numpy,rgommers,Netherlands,Amsterdam,52.3676,4.9041,1445
+numpy/numpy,jorenham,Netherlands,Amsterdam,52.3676,4.9041,963
+numpy/numpy,mhvk,Canada,Toronto,43.6532,-79.3832,360
+numpy/numpy,r-devulap,India,Bangalore,12.9716,77.5946,325
+numpy/numpy,DimitriPapadopoulos,France,Paris,48.8566,2.3522,267
+numpy/numpy,bashtage,United Kingdom,London,51.5072,-0.1276,252
+numpy/numpy,pierregm,France,Paris,48.8566,2.3522,199
+numpy/numpy,shoyer,United States,San Francisco,37.7749,-122.4194,196
+numpy/numpy,lysnikolaou,Germany,Berlin,52.52,13.405,180
+numpy/numpy,ganesh-k13,India,Bangalore,12.9716,77.5946,147
+pandas-dev/pandas,simonjayhawkins,United Kingdom,London,51.5072,-0.1276,628
+pandas-dev/pandas,tuhinsharma121,India,Bangalore,12.9716,77.5946,478
+pandas-dev/pandas,sinhrks,Japan,Tokyo,35.6762,139.6503,409
+pandas-dev/pandas,jtratner,United States,San Francisco,37.7749,-122.4194,250
+pandas-dev/pandas,changhiskhan,United States,San Francisco,37.7749,-122.4194,246
+pandas-dev/pandas,hayd,United States,San Francisco,37.7749,-122.4194,160
+pandas-dev/pandas,DeaMariaLeon,France,Paris,48.8566,2.3522,114
+pandas-dev/pandas,orbitfold,Germany,Berlin,52.52,13.405,111
+pandas-dev/pandas,alimcmaster1,United Kingdom,London,51.5072,-0.1276,104
+pandas-dev/pandas,charlesdong1991,Netherlands,Amsterdam,52.3676,4.9041,89
+scikit-learn/scikit-learn,ogrisel,France,Paris,48.8566,2.3522,2573
+scikit-learn/scikit-learn,agramfort,France,Paris,48.8566,2.3522,1086
+scikit-learn/scikit-learn,thomasjpfan,United States,New York,40.7128,-74.006,919
+scikit-learn/scikit-learn,mblondel,France,Paris,48.8566,2.3522,778
+scikit-learn/scikit-learn,vene,Netherlands,Amsterdam,52.3676,4.9041,775
+scikit-learn/scikit-learn,jnothman,Australia,Sydney,-33.8688,151.2093,773
+scikit-learn/scikit-learn,glemaitre,France,Paris,48.8566,2.3522,661
+scikit-learn/scikit-learn,MechCoder,Netherlands,Amsterdam,52.3676,4.9041,313
+scikit-learn/scikit-learn,adrinjalali,Germany,Berlin,52.52,13.405,298
+scikit-learn/scikit-learn,qinhanmin2014,China,Beijing,39.9042,116.4074,264
+scikit-learn/scikit-learn,NicolasHug,United Kingdom,London,51.5072,-0.1276,250
+scikit-learn/scikit-learn,lucyleeow,Australia,Sydney,-33.8688,151.2093,246
+scikit-learn/scikit-learn,robertlayton,Australia,Sydney,-33.8688,151.2093,233
+scikit-learn/scikit-learn,raghavrv,France,Paris,48.8566,2.3522,140
+scikit-learn/scikit-learn,jjerphan,France,Paris,48.8566,2.3522,132
+scikit-learn/scikit-learn,rth,France,Paris,48.8566,2.3522,132
+scikit-learn/scikit-learn,StefanieSenger,Germany,Berlin,52.52,13.405,113
+scikit-learn/scikit-learn,TomDLT,United States,San Francisco,37.7749,-122.4194,113
+scikit-learn/scikit-learn,cmarmo,France,Paris,48.8566,2.3522,105
+scikit-learn/scikit-learn,clayw,United States,San Francisco,37.7749,-122.4194,103
+ray-project/ray,sven1977,United States,San Francisco,37.7749,-122.4194,1170
+ray-project/ray,jjyao,United States,San Francisco,37.7749,-122.4194,581
+ray-project/ray,justinvyu,United States,San Francisco,37.7749,-122.4194,363
+ray-project/ray,ijrsvt,United States,San Francisco,37.7749,-122.4194,307
+ray-project/ray,scv119,United States,San Francisco,37.7749,-122.4194,287
+ray-project/ray,kevin85421,United States,San Francisco,37.7749,-122.4194,249
+ray-project/ray,DmitriGekhtman,United States,San Francisco,37.7749,-122.4194,195
+jax-ml/jax,mattjj,United States,San Francisco,37.7749,-122.4194,2830
+jax-ml/jax,apaszke,Germany,Berlin,52.52,13.405,1091
+jax-ml/jax,superbobry,United Kingdom,London,51.5072,-0.1276,925
+jax-ml/jax,sharadmv,United States,San Francisco,37.7749,-122.4194,459
+jax-ml/jax,justinjfu,United States,San Francisco,37.7749,-122.4194,229
+jax-ml/jax,danielsuo,United States,New York,40.7128,-74.006,199
+jax-ml/jax,chr1sj0nes,United Kingdom,London,51.5072,-0.1276,155
+jax-ml/jax,shoyer,United States,San Francisco,37.7749,-122.4194,152
+jax-ml/jax,ayaka14732,United Kingdom,London,51.5072,-0.1276,87
+jax-ml/jax,cperivol,United Kingdom,London,51.5072,-0.1276,87
+jax-ml/jax,hyeontaek,United States,San Francisco,37.7749,-122.4194,83
+jax-ml/jax,levskaya,United States,San Francisco,37.7749,-122.4194,80
+jax-ml/jax,j-towns,United Kingdom,London,51.5072,-0.1276,73
+apache/spark,zhengruifeng,China,Beijing,39.9042,116.4074,1810
+apache/spark,mateiz,United States,San Francisco,37.7749,-122.4194,1588
+apache/spark,rxin,United States,San Francisco,37.7749,-122.4194,1482
+apache/spark,cloud-fan,China,Beijing,39.9042,116.4074,1335
+apache/spark,yaooqinn,China,Beijing,39.9042,116.4074,840
+apache/spark,panbingkun,China,Beijing,39.9042,116.4074,719
+apache/spark,zsxwing,United States,San Francisco,37.7749,-122.4194,531
+apache/spark,sarutak,Japan,Tokyo,35.6762,139.6503,524
+apache/spark,wangyum,China,Shanghai,31.2304,121.4737,521
+apache/spark,beliefer,China,Beijing,39.9042,116.4074,477
+apache/spark,gatorsmile,United States,San Francisco,37.7749,-122.4194,442
+apache/spark,liancheng,United States,San Francisco,37.7749,-122.4194,377
+apache/spark,hvanhovell,Netherlands,Amsterdam,52.3676,4.9041,291
+apache/spark,yanboliang,United States,San Francisco,37.7749,-122.4194,290
+apache/spark,maropu,Japan,Tokyo,35.6762,139.6503,273
+apache/spark,ulysses-you,China,Beijing,39.9042,116.4074,227
+apache/spark,Ngone51,China,Beijing,39.9042,116.4074,217
+mlflow/mlflow,harupy,Japan,Tokyo,35.6762,139.6503,2675
+mlflow/mlflow,B-Step62,Japan,Tokyo,35.6762,139.6503,733
+mlflow/mlflow,TomeHirata,Japan,Tokyo,35.6762,139.6503,428
+mlflow/mlflow,prithvikannan,United States,San Francisco,37.7749,-122.4194,107
+mlflow/mlflow,apurva-koti,United States,San Francisco,37.7749,-122.4194,61
+mlflow/mlflow,andrewmchen,United States,San Francisco,37.7749,-122.4194,44
+mlflow/mlflow,ankit-db,United States,San Francisco,37.7749,-122.4194,38
+mlflow/mlflow,mateiz,United States,San Francisco,37.7749,-122.4194,37
+mlflow/mlflow,michael-berk,United States,New York,40.7128,-74.006,31
+keras-team/keras,farizrahman4u,India,Bangalore,12.9716,77.5946,209
+keras-team/keras,mattdangerw,United States,San Francisco,37.7749,-122.4194,207
+keras-team/keras,gabrieldemarmiesse,France,Paris,48.8566,2.3522,127
+keras-team/keras,sampathweb,United States,San Francisco,37.7749,-122.4194,115
+keras-team/keras,nkovela1,United States,San Francisco,37.7749,-122.4194,114
+keras-team/keras,goyaladitya05,India,Bangalore,12.9716,77.5946,91
+keras-team/keras,Frightera,United Kingdom,London,51.5072,-0.1276,81
+keras-team/keras,phreeza,Germany,Berlin,52.52,13.405,62
+keras-team/keras,sachinprasadhs,United States,San Francisco,37.7749,-122.4194,54
+keras-team/keras,wxs,Canada,Toronto,43.6532,-79.3832,53
+keras-team/keras,soumik12345,India,Bangalore,12.9716,77.5946,42
+keras-team/keras,old-school-kid,India,Bangalore,12.9716,77.5946,38
+keras-team/keras,nzw0301,Japan,Tokyo,35.6762,139.6503,35
+keras-team/keras,awsaf49,United States,San Francisco,37.7749,-122.4194,32
+openai/openai-python,hallacy,United States,San Francisco,37.7749,-122.4194,29
+openai/openai-python,kristapratico,United States,San Francisco,37.7749,-122.4194,9
+openai/openai-python,ddeville,United States,San Francisco,37.7749,-122.4194,7
+openai/openai-python,jhallard,United States,San Francisco,37.7749,-122.4194,5
+openai/openai-python,schnerd,United States,San Francisco,37.7749,-122.4194,4
+openai/openai-python,gdb,United States,San Francisco,37.7749,-122.4194,3
+openai/openai-python,harupy,Japan,Tokyo,35.6762,139.6503,3
+openai/openai-python,nfcampos,United Kingdom,London,51.5072,-0.1276,2
+openai/openai-python,Someet-Git,India,Bangalore,12.9716,77.5946,1
+openai/openai-python,Showmick119,United States,San Francisco,37.7749,-122.4194,1
+openai/openai-python,shapor,United States,San Francisco,37.7749,-122.4194,1
+microsoft/LightGBM,chivee,China,Beijing,39.9042,116.4074,59
+microsoft/LightGBM,henry0312,Japan,Tokyo,35.6762,139.6503,47
+microsoft/LightGBM,btrotta,Australia,Sydney,-33.8688,151.2093,25
+microsoft/LightGBM,xuehui1991,China,Beijing,39.9042,116.4074,16
+microsoft/LightGBM,zhangyafeikimi,China,Beijing,39.9042,116.4074,8
+microsoft/LightGBM,thomasjpfan,United States,New York,40.7128,-74.006,8
+microsoft/LightGBM,Allardvm,Netherlands,Amsterdam,52.3676,4.9041,7
+dmlc/xgboost,pommedeterresautee,France,Paris,48.8566,2.3522,301
+dmlc/xgboost,hetong007,China,Shanghai,31.2304,121.4737,262
+dmlc/xgboost,RAMitchell,Germany,Berlin,52.52,13.405,222
+dmlc/xgboost,terrytangyuan,United States,San Francisco,37.7749,-122.4194,174
+dmlc/xgboost,razdoburdin,Germany,Berlin,52.52,13.405,61
+dmlc/xgboost,nachocano,United States,San Francisco,37.7749,-122.4194,54
+dmlc/xgboost,cblsjtu,China,Shanghai,31.2304,121.4737,31
+dmlc/xgboost,Far0n,Germany,Berlin,52.52,13.405,30
+dmlc/xgboost,JohanManders,Netherlands,Amsterdam,52.3676,4.9041,26
+dmlc/xgboost,superbobry,United Kingdom,London,51.5072,-0.1276,26
+dmlc/xgboost,canonizer,Germany,Berlin,52.52,13.405,24
+dmlc/xgboost,sinhrks,Japan,Tokyo,35.6762,139.6503,20
+dmlc/xgboost,yepyao,China,Shanghai,31.2304,121.4737,9
+dmlc/xgboost,EricChenDM,China,Beijing,39.9042,116.4074,9
+facebookresearch/faiss,mdouze,France,Paris,48.8566,2.3522,341
+facebookresearch/faiss,beauby,France,Paris,48.8566,2.3522,105
+facebookresearch/faiss,ddrcoder,United States,San Francisco,37.7749,-122.4194,16
+facebookresearch/faiss,chasingegg,China,Shanghai,31.2304,121.4737,8
+facebookresearch/faiss,aknayar,United States,New York,40.7128,-74.006,8
+facebookresearch/faiss,kyamagu,Japan,Tokyo,35.6762,139.6503,7
+facebookresearch/faiss,cjnolet,United States,San Francisco,37.7749,-122.4194,5
+apache/airflow,kaxil,United Kingdom,London,51.5072,-0.1276,2005
+apache/airflow,ashb,United Kingdom,London,51.5072,-0.1276,945
+apache/airflow,amoghrajesh,India,Bangalore,12.9716,77.5946,845
+apache/airflow,jscheffl,Germany,Berlin,52.52,13.405,695
+apache/airflow,bbovenzi,United States,San Francisco,37.7749,-122.4194,596
+apache/airflow,pierrejeambrun,France,Paris,48.8566,2.3522,550
+apache/airflow,hussein-awala,France,Paris,48.8566,2.3522,361
+apache/airflow,bugraoz93,Netherlands,Amsterdam,52.3676,4.9041,212
+apache/airflow,tirkarthi,India,Bangalore,12.9716,77.5946,164
+apache/airflow,choo121600,United States,San Francisco,37.7749,-122.4194,129
+prefecthq/prefect,zhen0,United States,New York,40.7128,-74.006,373
+prefecthq/prefect,chrisguidry,United States,San Francisco,37.7749,-122.4194,336
+prefecthq/prefect,anna-geller,Germany,Berlin,52.52,13.405,123
+prefecthq/prefect,aaazzam,United States,New York,40.7128,-74.006,102
+prefecthq/prefect,rpeden,Canada,Toronto,43.6532,-79.3832,45
+prefecthq/prefect,khuyentran1401,United States,San Francisco,37.7749,-122.4194,31
+streamlit/streamlit,lukasmasuch,Germany,Berlin,52.52,13.405,1291
+streamlit/streamlit,treuille,United States,San Francisco,37.7749,-122.4194,1043
+streamlit/streamlit,vdonato,United States,New York,40.7128,-74.006,257
+streamlit/streamlit,raethlein,Germany,Berlin,52.52,13.405,117
+streamlit/streamlit,jrieke,Germany,Berlin,52.52,13.405,56
+streamlit/streamlit,nthmost,United States,San Francisco,37.7749,-122.4194,26
+streamlit/streamlit,whitphx,Japan,Tokyo,35.6762,139.6503,20
+gradio-app/gradio,pngwn,United Kingdom,London,51.5072,-0.1276,702
+gradio-app/gradio,whitphx,Japan,Tokyo,35.6762,139.6503,180
+gradio-app/gradio,cbensimon,France,Paris,48.8566,2.3522,18
+gradio-app/gradio,eltociear,Japan,Tokyo,35.6762,139.6503,14
+gradio-app/gradio,gary149,France,Paris,48.8566,2.3522,10
+gradio-app/gradio,deckar01,United States,San Francisco,37.7749,-122.4194,9
+gradio-app/gradio,badbye,China,Beijing,39.9042,116.4074,8
+gradio-app/gradio,radames,United States,San Francisco,37.7749,-122.4194,8
+gradio-app/gradio,Cassini-chris,Germany,Berlin,52.52,13.405,7
+gradio-app/gradio,majiayu000,China,Beijing,39.9042,116.4074,7
+run-llama/llama_index,Disiok,United States,San Francisco,37.7749,-122.4194,210
+run-llama/llama_index,nerdai,Canada,Toronto,43.6532,-79.3832,169
+run-llama/llama_index,ravi03071991,United States,San Francisco,37.7749,-122.4194,104
+run-llama/llama_index,AstraBert,Germany,Berlin,52.52,13.405,102
+run-llama/llama_index,seldo,United States,San Francisco,37.7749,-122.4194,88
+run-llama/llama_index,jamesbraza,United States,San Francisco,37.7749,-122.4194,69
+run-llama/llama_index,sourabhdesai,United States,San Francisco,37.7749,-122.4194,58
+run-llama/llama_index,Florian-BACHO,France,Paris,48.8566,2.3522,27
+run-llama/llama_index,nfiacco,United States,San Francisco,37.7749,-122.4194,24
+vllm-project/vllm,youkaichao,China,Beijing,39.9042,116.4074,470
+vllm-project/vllm,Isotr0py,China,Beijing,39.9042,116.4074,405
+vllm-project/vllm,jeejeelee,China,Beijing,39.9042,116.4074,283
+vllm-project/vllm,russellb,United States,San Francisco,37.7749,-122.4194,179
+ollama/ollama,BruceMacD,United States,San Francisco,37.7749,-122.4194,352
+ollama/ollama,hoyyeva,Canada,Toronto,43.6532,-79.3832,61
+ollama/ollama,gr4ceG,United States,San Francisco,37.7749,-122.4194,14
+ollama/ollama,npardal,Canada,Toronto,43.6532,-79.3832,11
+ollama/ollama,danemadsen,Australia,Sydney,-33.8688,151.2093,8
+ollama/ollama,zhanluxianshen,China,Beijing,39.9042,116.4074,7
+open-webui/open-webui,cheahjs,United Kingdom,London,51.5072,-0.1276,215
+open-webui/open-webui,ShirasawaSama,China,Beijing,39.9042,116.4074,147
+open-webui/open-webui,jannikstdl,Germany,Berlin,52.52,13.405,128
+open-webui/open-webui,karllee830,China,Beijing,39.9042,116.4074,71
+open-webui/open-webui,Yanyutin753,China,Beijing,39.9042,116.4074,66
+open-webui/open-webui,TiancongLx,China,Beijing,39.9042,116.4074,49
+opencv/opencv,tomoaki0705,Japan,Tokyo,35.6762,139.6503,196
+opencv/opencv,vrabaud,France,Paris,48.8566,2.3522,159
+opencv/opencv,akarsakov,United Kingdom,London,51.5072,-0.1276,149
+opencv/opencv,fengyuentau,China,Beijing,39.9042,116.4074,125
+opencv/opencv,paroj,Germany,Berlin,52.52,13.405,123
+ultralytics/ultralytics,glenn-jocher,United States,San Francisco,37.7749,-122.4194,1562
+ultralytics/ultralytics,Laughing-q,China,Beijing,39.9042,116.4074,353
+ultralytics/ultralytics,AyushExel,India,Bangalore,12.9716,77.5946,83
+milvus-io/milvus,JinHai-CN,China,Shanghai,31.2304,121.4737,1110
+milvus-io/milvus,bigsheeper,China,Beijing,39.9042,116.4074,1008
+milvus-io/milvus,zhuwenxing,China,Shanghai,31.2304,121.4737,812
+milvus-io/milvus,xiaocai2333,China,Beijing,39.9042,116.4074,804
+milvus-io/milvus,XuanYang-cn,China,Shanghai,31.2304,121.4737,759
+milvus-io/milvus,cydrain,China,Shanghai,31.2304,121.4737,731
+milvus-io/milvus,XuPeng-SH,China,Shanghai,31.2304,121.4737,711
+milvus-io/milvus,sunby,China,Shanghai,31.2304,121.4737,636
+milvus-io/milvus,weiliu1031,China,Shanghai,31.2304,121.4737,547
+milvus-io/milvus,yah01,China,Shanghai,31.2304,121.4737,449
+qdrant/qdrant,generall,Germany,Berlin,52.52,13.405,1044
+qdrant/qdrant,agourlay,Germany,Berlin,52.52,13.405,822
+qdrant/qdrant,timvisee,Netherlands,Amsterdam,52.3676,4.9041,688
+qdrant/qdrant,JojiiOfficial,Germany,Berlin,52.52,13.405,142
+qdrant/qdrant,KShivendu,India,Bangalore,12.9716,77.5946,71
+qdrant/qdrant,kgrech,United Kingdom,London,51.5072,-0.1276,11
+weaviate/weaviate,etiennedi,Germany,Berlin,52.52,13.405,3775
+weaviate/weaviate,bobvanluijt,Netherlands,Amsterdam,52.3676,4.9041,1282
+weaviate/weaviate,tsmith023,United Kingdom,London,51.5072,-0.1276,662
+weaviate/weaviate,kavirajk,Netherlands,Amsterdam,52.3676,4.9041,492
+weaviate/weaviate,redouan-rhazouani,Germany,Berlin,52.52,13.405,317
+weaviate/weaviate,moretea,Netherlands,Amsterdam,52.3676,4.9041,273
+chroma-core/chroma,rescrv,United States,San Francisco,37.7749,-122.4194,587
+chroma-core/chroma,jeffchuber,United States,San Francisco,37.7749,-122.4194,434
+chroma-core/chroma,beggers,United States,San Francisco,37.7749,-122.4194,105
+chroma-core/chroma,kylediaz,United States,San Francisco,37.7749,-122.4194,80
+chroma-core/chroma,drewkim,United States,San Francisco,37.7749,-122.4194,56
+chroma-core/chroma,nicolasgere,United States,San Francisco,37.7749,-122.4194,35
+langgenius/dify,bowenliang123,China,Beijing,39.9042,116.4074,295
+langgenius/dify,asukaminato0721,Japan,Tokyo,35.6762,139.6503,207
+langgenius/dify,fatelei,China,Beijing,39.9042,116.4074,192
+langgenius/dify,NeatGuyCoding,Australia,Sydney,-33.8688,151.2093,129
+langgenius/dify,WTW0313,China,Beijing,39.9042,116.4074,128
+PaddlePaddle/Paddle,reyoung,China,Beijing,39.9042,116.4074,2455
+PaddlePaddle/Paddle,jacquesqiao,China,Beijing,39.9042,116.4074,1501
+PaddlePaddle/Paddle,SigureMo,China,Beijing,39.9042,116.4074,873
+PaddlePaddle/Paddle,dzhwinter,China,Beijing,39.9042,116.4074,799
+PaddlePaddle/Paddle,velconia,China,Beijing,39.9042,116.4074,708
+PaddlePaddle/Paddle,panyx0718,China,Beijing,39.9042,116.4074,678
+PaddlePaddle/Paddle,chenwhql,China,Beijing,39.9042,116.4074,649
+PaddlePaddle/Paddle,typhoonzero,China,Beijing,39.9042,116.4074,632
+PaddlePaddle/Paddle,Aurelius84,China,Beijing,39.9042,116.4074,585
+PaddlePaddle/Paddle,zhiqiu,China,Beijing,39.9042,116.4074,521
+apache/flink,tillrohrmann,Germany,Berlin,52.52,13.405,2098
+apache/flink,StephanEwen,Germany,Berlin,52.52,13.405,1757
+apache/flink,twalthr,Germany,Berlin,52.52,13.405,1019
+apache/flink,rmetzger,Germany,Berlin,52.52,13.405,745
+apache/flink,rkhachatryan,Germany,Berlin,52.52,13.405,487
+apache/flink,XComp,Germany,Berlin,52.52,13.405,434
+apache/flink,uce,Germany,Berlin,52.52,13.405,434
+apache/flink,wuchong,China,Beijing,39.9042,116.4074,413
+apache/flink,kl0u,Germany,Berlin,52.52,13.405,397
+apache/flink,tzulitai,Canada,Toronto,43.6532,-79.3832,362
+apache/flink,xintongsong,China,Beijing,39.9042,116.4074,342
+apache/flink,GJL,Germany,Berlin,52.52,13.405,336
+apache/kafka,ijuma,United States,San Francisco,37.7749,-122.4194,716
+apache/kafka,rajinisivaram,United Kingdom,London,51.5072,-0.1276,343
+apache/kafka,cadonna,Germany,Berlin,52.52,13.405,227
+apache/kafka,frankvicky,United Kingdom,London,51.5072,-0.1276,202
+apache/kafka,omkreddy,India,Bangalore,12.9716,77.5946,199
+apache/superset,kristw,United States,San Francisco,37.7749,-122.4194,834
+apache/superset,rusackas,United States,San Francisco,37.7749,-122.4194,602
+apache/superset,ktmud,United States,San Francisco,37.7749,-122.4194,393
+apache/superset,zhaoyongjie,Germany,Berlin,52.52,13.405,327
+apache/superset,justinpark,United States,San Francisco,37.7749,-122.4194,276
+apache/superset,eschutho,United States,San Francisco,37.7749,-122.4194,248
+apache/superset,aminghadersohi,United States,San Francisco,37.7749,-122.4194,171
+apache/doris,Gabriel39,China,Beijing,39.9042,116.4074,972
+apache/doris,morrySnow,China,Beijing,39.9042,116.4074,853
+apache/doris,HappenLee,China,Beijing,39.9042,116.4074,601
+apache/doris,englefly,China,Beijing,39.9042,116.4074,580
+apache/doris,zy-kkk,China,Beijing,39.9042,116.4074,478
+apache/doris,xinyiZzz,China,Beijing,39.9042,116.4074,461
+apache/doris,yiguolei,China,Beijing,39.9042,116.4074,423
+apache/doris,zddr,China,Beijing,39.9042,116.4074,404
+apache/seatunnel,Hisoka-X,China,Beijing,39.9042,116.4074,581
+apache/seatunnel,garyelephant,China,Beijing,39.9042,116.4074,533
+apache/seatunnel,RickyHuo,China,Beijing,39.9042,116.4074,469
+apache/seatunnel,hailin0,China,Beijing,39.9042,116.4074,265
+apache/seatunnel,EricJoy2048,Canada,Toronto,43.6532,-79.3832,202
+apache/seatunnel,TyrantLucifer,China,Beijing,39.9042,116.4074,184
+apache/seatunnel,ashulin,China,Beijing,39.9042,116.4074,139
+apache/seatunnel,zhangshenghang,China,Beijing,39.9042,116.4074,128
+apache/seatunnel,liunaijie,China,Beijing,39.9042,116.4074,110
+apache/seatunnel,TaoZex,China,Beijing,39.9042,116.4074,68
+duckdb/duckdb,Mytherin,Netherlands,Amsterdam,52.3676,4.9041,24479
+duckdb/duckdb,pdet,Netherlands,Amsterdam,52.3676,4.9041,4907
+duckdb/duckdb,hannes,Netherlands,Amsterdam,52.3676,4.9041,3523
+duckdb/duckdb,samansmink,Netherlands,Amsterdam,52.3676,4.9041,2177
+duckdb/duckdb,carlopi,Netherlands,Amsterdam,52.3676,4.9041,1991
+duckdb/duckdb,Tmonster,Netherlands,Amsterdam,52.3676,4.9041,1897
+duckdb/duckdb,Dtenwolde,Netherlands,Amsterdam,52.3676,4.9041,1281
+duckdb/duckdb,Mause,Australia,Sydney,-33.8688,151.2093,826
+duckdb/duckdb,ZuleykhaPavlichenkova-TomTom,Netherlands,Amsterdam,52.3676,4.9041,788
+duckdb/duckdb,lnkuiper,Netherlands,Amsterdam,52.3676,4.9041,508
+duckdb/duckdb,kryonix,Germany,Berlin,52.52,13.405,504
+elastic/elasticsearch,s1monw,Germany,Berlin,52.52,13.405,3182
+elastic/elasticsearch,DaveCTurner,United Kingdom,London,51.5072,-0.1276,2910
+elastic/elasticsearch,javanna,Netherlands,Amsterdam,52.3676,4.9041,2532
+elastic/elasticsearch,tlrx,France,Paris,48.8566,2.3522,1443
+elastic/elasticsearch,dadoonet,France,Paris,48.8566,2.3522,1437
+elastic/elasticsearch,jpountz,France,Paris,48.8566,2.3522,1411
+kubernetes/kubernetes,liggitt,United States,San Francisco,37.7749,-122.4194,2160
+kubernetes/kubernetes,thockin,United States,San Francisco,37.7749,-122.4194,2074
+kubernetes/kubernetes,pohly,Germany,Berlin,52.52,13.405,1469
+kubernetes/kubernetes,sttts,Germany,Berlin,52.52,13.405,1188
+kubernetes/kubernetes,gmarek,United Kingdom,London,51.5072,-0.1276,829
+kubernetes/kubernetes,dchen1107,United States,San Francisco,37.7749,-122.4194,774
+kubernetes/kubernetes,zmerlynn,United States,San Francisco,37.7749,-122.4194,691
+kubernetes/kubernetes,justinsb,United States,San Francisco,37.7749,-122.4194,636
+helm/helm,mattfarina,United States,San Francisco,37.7749,-122.4194,845
+helm/helm,gjenkins8,United States,San Francisco,37.7749,-122.4194,249
+helm/helm,benoittgt,France,Paris,48.8566,2.3522,103
+helm/helm,jackgr,United States,San Francisco,37.7749,-122.4194,92
+helm/helm,fibonacci1729,United States,San Francisco,37.7749,-122.4194,46
+docker/compose,ndeloof,France,Paris,48.8566,2.3522,1486
+docker/compose,glours,France,Paris,48.8566,2.3522,723
+docker/compose,rumpl,France,Paris,48.8566,2.3522,302
+docker/compose,ulyssessouza,Germany,Berlin,52.52,13.405,227
+docker/compose,thaJeztah,Netherlands,Amsterdam,52.3676,4.9041,190
+docker/compose,laurazard,Germany,Berlin,52.52,13.405,128
+docker/compose,nicksieger,United States,San Francisco,37.7749,-122.4194,27
+docker/compose,KoditkarVedant,India,Bangalore,12.9716,77.5946,18
+docker/compose,crazy-max,France,Paris,48.8566,2.3522,18
+hashicorp/terraform,radeksimko,United Kingdom,London,51.5072,-0.1276,1265
+hashicorp/terraform,DanielMSchmidt,Germany,Berlin,52.52,13.405,616
+hashicorp/terraform,grubernaut,India,Bangalore,12.9716,77.5946,500
+hashicorp/terraform,pearkes,United States,New York,40.7128,-74.006,297
+hashicorp/terraform,cgriggs01,United States,San Francisco,37.7749,-122.4194,276
+ansible/ansible,mattclay,United States,San Francisco,37.7749,-122.4194,2690
+ansible/ansible,jborean93,Australia,Sydney,-33.8688,151.2093,766
+ansible/ansible,nitzmahone,United States,San Francisco,37.7749,-122.4194,499
+ansible/ansible,gundalow,United Kingdom,London,51.5072,-0.1276,466
+prometheus/prometheus,juliusv,Germany,Berlin,52.52,13.405,1597
+prometheus/prometheus,beorn7,Germany,Berlin,52.52,13.405,1069
+prometheus/prometheus,bboreham,United Kingdom,London,51.5072,-0.1276,949
+prometheus/prometheus,bwplotka,United Kingdom,London,51.5072,-0.1276,399
+prometheus/prometheus,gouthamve,Germany,Berlin,52.52,13.405,300
+prometheus/prometheus,SuperQ,Germany,Berlin,52.52,13.405,296
+prometheus/prometheus,brancz,Germany,Berlin,52.52,13.405,222
+prometheus/prometheus,tomwilkie,United Kingdom,London,51.5072,-0.1276,160
+prometheus/prometheus,machine424,France,Paris,48.8566,2.3522,156
+prometheus/prometheus,LeviHarrison,United States,San Francisco,37.7749,-122.4194,132
+grafana/grafana,ashharrison90,United Kingdom,London,51.5072,-0.1276,1365
+grafana/grafana,joshhunt,United Kingdom,London,51.5072,-0.1276,733
+grafana/grafana,yuri-tceretian,United States,San Francisco,37.7749,-122.4194,526
+argoproj/argo-cd,alexec,United States,San Francisco,37.7749,-122.4194,273
+argoproj/argo-cd,mmorel-35,France,Paris,48.8566,2.3522,144
+argoproj/argo-cd,34fathombelow,United States,San Francisco,37.7749,-122.4194,72
+argoproj/argo-cd,terrytangyuan,United States,San Francisco,37.7749,-122.4194,69
+argoproj/argo-cd,nitishfy,India,Bangalore,12.9716,77.5946,65
+istio/istio,hzxuzhonghu,China,Beijing,39.9042,116.4074,920
+istio/istio,geeknoid,United States,San Francisco,37.7749,-122.4194,326
+istio/istio,ayj,United States,San Francisco,37.7749,-122.4194,317
+istio/istio,stevenctl,United States,San Francisco,37.7749,-122.4194,310
+istio/istio,nmittler,United States,San Francisco,37.7749,-122.4194,301
+istio/istio,frankbu,Canada,Toronto,43.6532,-79.3832,266
+fastapi/fastapi,tiangolo,Germany,Berlin,52.52,13.405,2058
+fastapi/fastapi,Kludex,Netherlands,Amsterdam,52.3676,4.9041,25
+fastapi/fastapi,tokusumi,Japan,Tokyo,35.6762,139.6503,24
+django/django,adrianholovaty,Netherlands,Amsterdam,52.3676,4.9041,2802
+django/django,malcolmt,Australia,Sydney,-33.8688,151.2093,1872
+django/django,freakboy3742,Australia,Sydney,-33.8688,151.2093,1741
+django/django,aaugustin,France,Paris,48.8566,2.3522,1399
+django/django,jezdez,Germany,Berlin,52.52,13.405,895
+django/django,andrewgodwin,United States,San Francisco,37.7749,-122.4194,450
+django/django,jdufresne,Canada,Toronto,43.6532,-79.3832,425
+django/django,ngnpope,United Kingdom,London,51.5072,-0.1276,345
+pallets/flask,rduplain,United States,San Francisco,37.7749,-122.4194,122
+pallets/flask,greyli,China,Shanghai,31.2304,121.4737,105
+pallets/flask,DasIch,Germany,Berlin,52.52,13.405,86
+pallets/flask,kennethreitz,United States,San Francisco,37.7749,-122.4194,59
+pallets/flask,pgjones,United Kingdom,London,51.5072,-0.1276,50
+pallets/flask,defuz,United Kingdom,London,51.5072,-0.1276,26
+pallets/flask,lepture,Japan,Tokyo,35.6762,139.6503,25
+encode/starlette,lovelydinosaur,United Kingdom,London,51.5072,-0.1276,455
+encode/starlette,Kludex,Netherlands,Amsterdam,52.3676,4.9041,290
+encode/starlette,aminalaee,Netherlands,Amsterdam,52.3676,4.9041,53
+encode/starlette,blueyed,Germany,Berlin,52.52,13.405,23
+encode/starlette,JayH5,United Kingdom,London,51.5072,-0.1276,22
+encode/starlette,florimondmanca,France,Paris,48.8566,2.3522,16
+encode/starlette,tiangolo,Germany,Berlin,52.52,13.405,14
+encode/starlette,taoufik07,France,Paris,48.8566,2.3522,6
+plotly/plotly.py,alexcjohnson,United States,San Francisco,37.7749,-122.4194,102
+plotly/plotly.py,archmoj,Canada,Toronto,43.6532,-79.3832,92
+plotly/plotly.py,nicholas-esterer,Canada,Toronto,43.6532,-79.3832,81
+plotly/plotly.py,rl-utility-man,United States,San Francisco,37.7749,-122.4194,69
+plotly/plotly.py,gvwilson,Canada,Toronto,43.6532,-79.3832,62
+jupyter/notebook,Carreau,France,Paris,48.8566,2.3522,1334
+jupyter/notebook,SylvainCorlay,France,Paris,48.8566,2.3522,102
+jupyterlab/jupyterlab,afshin,United Kingdom,London,51.5072,-0.1276,3736
+jupyterlab/jupyterlab,telamonian,United States,New York,40.7128,-74.006,583
+jupyterlab/jupyterlab,fcollonval,France,Paris,48.8566,2.3522,549
+jupyterlab/jupyterlab,krassowski,United Kingdom,London,51.5072,-0.1276,536
+jupyterlab/jupyterlab,vidartf,United Kingdom,London,51.5072,-0.1276,255
+jupyterlab/jupyterlab,kgryte,United States,San Francisco,37.7749,-122.4194,132
+vercel/next.js,ijjk,United States,San Francisco,37.7749,-122.4194,3296
+vercel/next.js,timneutkens,Netherlands,Amsterdam,52.3676,4.9041,2784
+vercel/next.js,sokra,Germany,Berlin,52.52,13.405,2483
+vercel/next.js,eps1lon,Germany,Berlin,52.52,13.405,733
+vercel/next.js,mischnic,Germany,Berlin,52.52,13.405,660
+vercel/next.js,unstubbable,Germany,Berlin,52.52,13.405,459
+vercel/next.js,ForsakenHarmony,Germany,Berlin,52.52,13.405,357
+vuejs/core,sxzz,Japan,Tokyo,35.6762,139.6503,110
+vuejs/core,HcySunYang,China,Beijing,39.9042,116.4074,91
+vuejs/core,pikax,United Kingdom,London,51.5072,-0.1276,83
+vuejs/core,Alfred-Skyblue,China,Beijing,39.9042,116.4074,55
+vuejs/core,LinusBorg,Germany,Berlin,52.52,13.405,45
+vuejs/core,posva,Germany,Berlin,52.52,13.405,24
+sveltejs/svelte,dummdidumm,Germany,Berlin,52.52,13.405,759
+sveltejs/svelte,trueadm,United Kingdom,London,51.5072,-0.1276,497
+sveltejs/svelte,baseballyama,Japan,Tokyo,35.6762,139.6503,72
+sveltejs/svelte,jacwright,United States,San Francisco,37.7749,-122.4194,30
+sveltejs/svelte,lukeed,United States,San Francisco,37.7749,-122.4194,30
+angular/angular,petebacondarwin,United Kingdom,London,51.5072,-0.1276,1771
+angular/angular,JeanMeche,France,Paris,48.8566,2.3522,1201
+angular/angular,alxhub,United States,San Francisco,37.7749,-122.4194,1078
+angular/angular,vsavkin,Canada,Toronto,43.6532,-79.3832,952
+angular/angular,vicb,France,Paris,48.8566,2.3522,916
+angular/angular,kara,United States,San Francisco,37.7749,-122.4194,536
+ant-design/ant-design,afc163,China,Beijing,39.9042,116.4074,10741
+ant-design/ant-design,zombieJ,China,Shanghai,31.2304,121.4737,2784
+ant-design/ant-design,li-jia-nan,China,Beijing,39.9042,116.4074,1353
+ant-design/ant-design,benjycui,China,Beijing,39.9042,116.4074,1116
+ant-design/ant-design,MadCcc,China,Shanghai,31.2304,121.4737,993
+ant-design/ant-design,yesmeck,Australia,Sydney,-33.8688,151.2093,789
+ant-design/ant-design,xrkffgg,China,Beijing,39.9042,116.4074,573
+ant-design/ant-design,ycjcl868,China,Beijing,39.9042,116.4074,503
+ant-design/ant-design,yiminghe,China,Shanghai,31.2304,121.4737,385
+ant-design/ant-design,kiner-tang,China,Beijing,39.9042,116.4074,268
+ant-design/ant-design,yoyo837,China,Beijing,39.9042,116.4074,216
+ant-design/ant-design,Wxh16144,China,Beijing,39.9042,116.4074,202
+ant-design/ant-design,hengkx,China,Beijing,39.9042,116.4074,199
+supabase/supabase,dshukertjr,Japan,Tokyo,35.6762,139.6503,608
+supabase/supabase,Hallidayo,United Kingdom,London,51.5072,-0.1276,294
+prisma/prisma,timsuchanek,United States,San Francisco,37.7749,-122.4194,2508
+prisma/prisma,Jolg42,Germany,Berlin,52.52,13.405,1704
+prisma/prisma,nikolasburk,Germany,Berlin,52.52,13.405,853
+prisma/prisma,millsp,France,Paris,48.8566,2.3522,507
+prisma/prisma,aqrln,Germany,Berlin,52.52,13.405,450
+prisma/prisma,SevInf,Germany,Berlin,52.52,13.405,277
+prisma/prisma,janpio,Germany,Berlin,52.52,13.405,165
+prisma/prisma,FGoessler,Germany,Berlin,52.52,13.405,89
+typeorm/typeorm,pkuczynski,Germany,Berlin,52.52,13.405,193
+typeorm/typeorm,alumni,Germany,Berlin,52.52,13.405,75
+typeorm/typeorm,Cprakhar,India,Bangalore,12.9716,77.5946,29
+typeorm/typeorm,matt-neal,India,Bangalore,12.9716,77.5946,27
+typeorm/typeorm,mguida22,United States,San Francisco,37.7749,-122.4194,21
+hasura/graphql-engine,danieljharvey,United Kingdom,London,51.5072,-0.1276,856
+hasura/graphql-engine,rakeshkky,India,Bangalore,12.9716,77.5946,423
+hasura/graphql-engine,rikinsk,India,Bangalore,12.9716,77.5946,388
+hasura/graphql-engine,robertjdominguez,United States,San Francisco,37.7749,-122.4194,278
+hasura/graphql-engine,daniel-chambers,Australia,Sydney,-33.8688,151.2093,255
+hasura/graphql-engine,vijayprasanna13,India,Bangalore,12.9716,77.5946,205
+hasura/graphql-engine,shahidhk,India,Bangalore,12.9716,77.5946,201
+hasura/graphql-engine,ecthiender,India,Bangalore,12.9716,77.5946,175
+hasura/graphql-engine,scriptnull,India,Bangalore,12.9716,77.5946,151
+hasura/graphql-engine,tirumaraiselvan,India,Bangalore,12.9716,77.5946,143
+hasura/graphql-engine,praveenweb,India,Bangalore,12.9716,77.5946,135
+appwrite/appwrite,ChiragAgg5k,India,Bangalore,12.9716,77.5946,1398
+appwrite/appwrite,loks0n,United Kingdom,London,51.5072,-0.1276,883
+appwrite/appwrite,ArnabChatterjee20k,India,Bangalore,12.9716,77.5946,839
+appwrite/appwrite,vermakhushboo,India,Bangalore,12.9716,77.5946,835
+appwrite/appwrite,ItzNotABug,India,Bangalore,12.9716,77.5946,780
+appwrite/appwrite,kodumbeats,Canada,Toronto,43.6532,-79.3832,489
+appwrite/appwrite,byawitz,United States,San Francisco,37.7749,-122.4194,264
+appwrite/appwrite,hmacr,India,Bangalore,12.9716,77.5946,157
+pingcap/tidb,hawkingrei,China,Shanghai,31.2304,121.4737,1526
+pingcap/tidb,coocood,China,Beijing,39.9042,116.4074,1080
+pingcap/tidb,zimulala,China,Beijing,39.9042,116.4074,1008
+pingcap/tidb,shenli,United States,San Francisco,37.7749,-122.4194,809
+pingcap/tidb,tangenta,China,Beijing,39.9042,116.4074,671
+pingcap/tidb,hanfei1991,Netherlands,Amsterdam,52.3676,4.9041,565
+pingcap/tidb,AilinKid,China,Beijing,39.9042,116.4074,529
+pingcap/tidb,lcwangchao,China,Beijing,39.9042,116.4074,490
+pingcap/tidb,wjhuang2016,China,Beijing,39.9042,116.4074,474
+pingcap/tidb,disksing,China,Beijing,39.9042,116.4074,450
+pingcap/tidb,lance6716,China,Beijing,39.9042,116.4074,383
+alibaba/nacos,shiyiyue1102,China,Beijing,39.9042,116.4074,134
+alibaba/nacos,jameslcj,China,Beijing,39.9042,116.4074,111
+alibaba/nacos,li-xiao-shuang,China,Beijing,39.9042,116.4074,110
+alibaba/nacos,brotherlu-xcq,China,Beijing,39.9042,116.4074,92
+alibaba/nacos,horizonzy,China,Beijing,39.9042,116.4074,87
+alibaba/nacos,shalk,China,Beijing,39.9042,116.4074,63
+alibaba/nacos,cxhello,China,Beijing,39.9042,116.4074,62
+alibaba/spring-cloud-alibaba,fangjian0423,China,Beijing,39.9042,116.4074,469
+alibaba/spring-cloud-alibaba,mercyblitz,China,Beijing,39.9042,116.4074,283
+alibaba/spring-cloud-alibaba,steverao,China,Beijing,39.9042,116.4074,146
+alibaba/spring-cloud-alibaba,DanielLiu1123,China,Beijing,39.9042,116.4074,130
+alibaba/spring-cloud-alibaba,theonefx,China,Beijing,39.9042,116.4074,108
+alibaba/spring-cloud-alibaba,ruansheng8,China,Beijing,39.9042,116.4074,89
+alibaba/spring-cloud-alibaba,xiaolongzuo,China,Beijing,39.9042,116.4074,78
+alibaba/spring-cloud-alibaba,yuluo-yx,China,Beijing,39.9042,116.4074,61
+alibaba/spring-cloud-alibaba,zkzlx,China,Shanghai,31.2304,121.4737,56
+alibaba/spring-cloud-alibaba,zhendong590,China,Beijing,39.9042,116.4074,29
+alibaba/spring-cloud-alibaba,kaori-seasons,China,Beijing,39.9042,116.4074,28
+alibaba/spring-cloud-alibaba,slievrly,China,Beijing,39.9042,116.4074,21
+alibaba/spring-cloud-alibaba,chickenlj,China,Beijing,39.9042,116.4074,14
+alibaba/spring-cloud-alibaba,li-xiao-shuang,China,Beijing,39.9042,116.4074,14
+apache/echarts,pissang,China,Shanghai,31.2304,121.4737,3166
+apache/echarts,Ovilia,China,Shanghai,31.2304,121.4737,1255
+apache/echarts,kener,China,Beijing,39.9042,116.4074,1137
+apache/echarts,plainheart,China,Beijing,39.9042,116.4074,633
+apache/echarts,yufeng04,China,Shanghai,31.2304,121.4737,45
+apache/echarts,jiawulin001,China,Beijing,39.9042,116.4074,40
+apache/echarts,erik168,China,Beijing,39.9042,116.4074,31
+apache/echarts,tyn1998,China,Shanghai,31.2304,121.4737,27
+apache/echarts,wf123537200,China,Beijing,39.9042,116.4074,22
+apache/echarts,ssthouse,China,Shanghai,31.2304,121.4737,22
+apache/echarts,Justin-ZS,China,Beijing,39.9042,116.4074,21
+baidu/amis,2betop,China,Beijing,39.9042,116.4074,6026
+baidu/amis,RickCole21,China,Beijing,39.9042,116.4074,1088
+baidu/amis,lurunze1226,China,Beijing,39.9042,116.4074,480
+baidu/amis,allenve,China,Beijing,39.9042,116.4074,324
+baidu/amis,tooeast,China,Beijing,39.9042,116.4074,114
+baidu/amis,pcdqc,China,Beijing,39.9042,116.4074,53
+Tencent/ncnn,nihui,China,Shanghai,31.2304,121.4737,2640
+Tencent/ncnn,zchrissirhcz,China,Beijing,39.9042,116.4074,71
+Tencent/ncnn,BUG1989,China,Beijing,39.9042,116.4074,42
+Tencent/ncnn,tpoisonooo,China,Shanghai,31.2304,121.4737,37
+Tencent/ncnn,futz12,China,Beijing,39.9042,116.4074,24
+misskey-dev/misskey,syuilo,Japan,Tokyo,35.6762,139.6503,20698
+misskey-dev/misskey,tamaina,Japan,Tokyo,35.6762,139.6503,751
+misskey-dev/misskey,kakkokari-gtyih,Japan,Tokyo,35.6762,139.6503,723
+misskey-dev/misskey,acid-chicken,Japan,Tokyo,35.6762,139.6503,681
+misskey-dev/misskey,AyaMorisawa,Japan,Tokyo,35.6762,139.6503,620
+misskey-dev/misskey,anatawa12,Japan,Tokyo,35.6762,139.6503,163
+misskey-dev/misskey,zyoshoka,Japan,Tokyo,35.6762,139.6503,127
+misskey-dev/misskey,Johann150,Germany,Berlin,52.52,13.405,126
+misskey-dev/misskey,saschanaz,Germany,Berlin,52.52,13.405,105
+misskey-dev/misskey,pixeldesu,Germany,Berlin,52.52,13.405,73
+misskey-dev/misskey,akihikodaki,Japan,Tokyo,35.6762,139.6503,72
+nextcloud/server,rullzer,Netherlands,Amsterdam,52.3676,4.9041,6157
+nextcloud/server,MorrisJobke,Germany,Berlin,52.52,13.405,5730
+nextcloud/server,nickvergessen,Germany,Berlin,52.52,13.405,5559
+nextcloud/server,LukasReschke,United Kingdom,London,51.5072,-0.1276,2998
+nextcloud/server,PVince81,Germany,Berlin,52.52,13.405,2769
+nextcloud/server,susnux,Germany,Berlin,52.52,13.405,2639
+nextcloud/server,schiessle,Germany,Berlin,52.52,13.405,2557
+nextcloud/server,juliusknorr,Germany,Berlin,52.52,13.405,2154
+nextcloud/server,Pytal,Canada,Toronto,43.6532,-79.3832,1033
+home-assistant/core,frenck,Netherlands,Amsterdam,52.3676,4.9041,5010
+home-assistant/core,joostlek,Netherlands,Amsterdam,52.3676,4.9041,3546
+home-assistant/core,cdce8p,Germany,Berlin,52.52,13.405,2295
+home-assistant/core,jbouwh,Netherlands,Amsterdam,52.3676,4.9041,1393
+home-assistant/core,mib1185,Germany,Berlin,52.52,13.405,1150
+home-assistant/core,NoRi2909,Germany,Berlin,52.52,13.405,955
+openhab/openhab-addons,lolodomo,France,Paris,48.8566,2.3522,474
+openhab/openhab-addons,wborn,Netherlands,Amsterdam,52.3676,4.9041,352
+openhab/openhab-addons,openhab-bot,Germany,Berlin,52.52,13.405,335
+openhab/openhab-addons,holgerfriedrich,Germany,Berlin,52.52,13.405,266
+openhab/openhab-addons,andrewfg,United Kingdom,London,51.5072,-0.1276,260
+openhab/openhab-addons,cweitkamp,Germany,Berlin,52.52,13.405,214
+openhab/openhab-addons,marcelrv,Netherlands,Amsterdam,52.3676,4.9041,197
+openhab/openhab-addons,clinique,France,Paris,48.8566,2.3522,188
+openhab/openhab-addons,florian-h05,Germany,Berlin,52.52,13.405,170
+openhab/openhab-addons,jimtng,Australia,Sydney,-33.8688,151.2093,151
+openhab/openhab-addons,kaikreuzer,Germany,Berlin,52.52,13.405,118
+openhab/openhab-addons,markus7017,Germany,Berlin,52.52,13.405,84
+screenpipe/screenpipe,louis030195,United States,San Francisco,37.7749,-122.4194,7545
+screenpipe/screenpipe,m13v,United States,San Francisco,37.7749,-122.4194,419
+screenpipe/screenpipe,Anshgrover23,India,Bangalore,12.9716,77.5946,67
+screenpipe/screenpipe,EzraEllette,United States,San Francisco,37.7749,-122.4194,53
+screenpipe/screenpipe,tribhuwan-kumar,India,Bangalore,12.9716,77.5946,41
+screenpipe/screenpipe,thisisharsh7,India,Bangalore,12.9716,77.5946,10
+screenpipe/screenpipe,Flamki,India,Bangalore,12.9716,77.5946,7
+screenpipe/screenpipe,neurocis,Canada,Toronto,43.6532,-79.3832,6
+OSGeo/grass,petrasovaa,United States,San Francisco,37.7749,-122.4194,1860
+OSGeo/grass,echoix,Canada,Toronto,43.6532,-79.3832,399
+OSGeo/grass,ShubhamDesai,United States,San Francisco,37.7749,-122.4194,262
+photoprism/photoprism,lastzero,Germany,Berlin,52.52,13.405,10113
+photoprism/photoprism,graciousgrey,Germany,Berlin,52.52,13.405,1388
+photoprism/photoprism,jean-louis67,France,Paris,48.8566,2.3522,30
+photoprism/photoprism,moximoti,Germany,Berlin,52.52,13.405,20
+photoprism/photoprism,keif888,Australia,Sydney,-33.8688,151.2093,11
+photoprism/photoprism,alexislefebvre,France,Paris,48.8566,2.3522,9
+EnzymeAD/Enzyme,tgymnich,Germany,Berlin,52.52,13.405,207
+EnzymeAD/Enzyme,ZuseZ4,Canada,Toronto,43.6532,-79.3832,100
+EnzymeAD/Enzyme,vchuravy,Germany,Berlin,52.52,13.405,59
+EnzymeAD/Enzyme,ludgerpaehler,United States,San Francisco,37.7749,-122.4194,34
+EnzymeAD/Enzyme,ftynse,France,Paris,48.8566,2.3522,17
+EnzymeAD/Enzyme,avik-pal,United States,New York,40.7128,-74.006,8
+EnzymeAD/Enzyme,martinjm97,United States,San Francisco,37.7749,-122.4194,5
+EnzymeAD/Enzyme,MattBolitho,United Kingdom,London,51.5072,-0.1276,5
+EnzymeAD/Enzyme,martinjrobins,United Kingdom,London,51.5072,-0.1276,4
+academic/awesome-datascience,AcylSilane,United States,San Francisco,37.7749,-122.4194,16
+academic/awesome-datascience,hasantayyar,Germany,Berlin,52.52,13.405,12
+academic/awesome-datascience,benedekrozemberczki,United Kingdom,London,51.5072,-0.1276,11
+academic/awesome-datascience,SourangshuGhosh,India,Bangalore,12.9716,77.5946,6
+academic/awesome-datascience,atg-abhishek,Canada,Toronto,43.6532,-79.3832,5
+hosseinmoein/DataFrame,hosseinmoein,United States,New York,40.7128,-74.006,1490
+hosseinmoein/DataFrame,justinjk007,Canada,Toronto,43.6532,-79.3832,76
+hosseinmoein/DataFrame,SpaceIm,France,Paris,48.8566,2.3522,39
+hosseinmoein/DataFrame,yssource,China,Shanghai,31.2304,121.4737,8
+hosseinmoein/DataFrame,jmarrec,France,Paris,48.8566,2.3522,2
+hosseinmoein/DataFrame,theirix,United Kingdom,London,51.5072,-0.1276,1
+hosseinmoein/DataFrame,eltociear,Japan,Tokyo,35.6762,139.6503,1
+hosseinmoein/DataFrame,edouardberthe,United Kingdom,London,51.5072,-0.1276,1
+superiorlu/AITreasureBox,superiorlu,China,Beijing,39.9042,116.4074,216
+patrick-kidger/equinox,andyehrenberg,United States,San Francisco,37.7749,-122.4194,33
+patrick-kidger/equinox,paganpasta,United Kingdom,London,51.5072,-0.1276,29
+patrick-kidger/equinox,jenkspt,United States,San Francisco,37.7749,-122.4194,9
+patrick-kidger/equinox,knyazer,United Kingdom,London,51.5072,-0.1276,5
+patrick-kidger/equinox,RunnersNum40,Canada,Toronto,43.6532,-79.3832,3
+patrick-kidger/equinox,jondeaton,United States,San Francisco,37.7749,-122.4194,3
+patrick-kidger/equinox,0xallam,United States,San Francisco,37.7749,-122.4194,3
+SwanHubX/SwanLab,SAKURA-CAT,China,Beijing,39.9042,116.4074,446
+SwanHubX/SwanLab,Zeyi-Lin,China,Beijing,39.9042,116.4074,258
+SwanHubX/SwanLab,Feudalman,China,Beijing,39.9042,116.4074,83
+SwanHubX/SwanLab,Nexisato,China,Beijing,39.9042,116.4074,23
+SwanHubX/SwanLab,ShaohonChen,China,Beijing,39.9042,116.4074,21
+SwanHubX/SwanLab,Kaikaikaifang,China,Beijing,39.9042,116.4074,7
+SwanHubX/SwanLab,little1d,China,Shanghai,31.2304,121.4737,5
+SwanHubX/SwanLab,Puiching-Memory,China,Beijing,39.9042,116.4074,4
+SwanHubX/SwanLab,KMnO4-zx,China,Beijing,39.9042,116.4074,2
+SwanHubX/SwanLab,Talljack,China,Beijing,39.9042,116.4074,2
+SwanHubX/SwanLab,happy-riosky,China,Beijing,39.9042,116.4074,2
+SwanHubX/SwanLab,pescn,China,Beijing,39.9042,116.4074,2
+SwanHubX/SwanLab,Bainianzzz,China,Beijing,39.9042,116.4074,2
+sacridini/Awesome-Geospatial,sacridini,Germany,Berlin,52.52,13.405,801
+sacridini/Awesome-Geospatial,spatialhast,United Kingdom,London,51.5072,-0.1276,6
+sacridini/Awesome-Geospatial,kylebarron,United States,New York,40.7128,-74.006,2
+microsoft/onnxruntime,skottmckay,Australia,Sydney,-33.8688,151.2093,583
+microsoft/onnxruntime,mszhanyi,China,Beijing,39.9042,116.4074,265
+microsoft/onnxruntime,pengwa,China,Beijing,39.9042,116.4074,176
+microsoft/onnxruntime,Honry,China,Shanghai,31.2304,121.4737,158
+modelscope/modelscope,wangxingjun778,China,Beijing,39.9042,116.4074,208
+modelscope/modelscope,zzhangpurdue,China,Beijing,39.9042,116.4074,138
+modelscope/modelscope,wangqiang9,China,Beijing,39.9042,116.4074,78
+modelscope/modelscope,yingdachen,United States,San Francisco,37.7749,-122.4194,75
+modelscope/modelscope,Jintao-Huang,China,Beijing,39.9042,116.4074,44
+modelscope/modelscope,Cathy0908,China,Shanghai,31.2304,121.4737,22
+modelscope/modelscope,huangshenno1,China,Beijing,39.9042,116.4074,16
+bgauryy/octocode-mcp,Matvey-Kuk,United Kingdom,London,51.5072,-0.1276,1
+SemiAnalysisAI/InferenceX,Ankur-singh,United States,San Francisco,37.7749,-122.4194,22
+Nano-Collective/nanocoder,will-lamerton,United Kingdom,London,51.5072,-0.1276,1296
+Nano-Collective/nanocoder,DenizOkcu,Germany,Berlin,52.52,13.405,40
+Nano-Collective/nanocoder,jasonpaulso,United States,San Francisco,37.7749,-122.4194,12
+Nano-Collective/nanocoder,wmantly,United States,New York,40.7128,-74.006,9
+Nano-Collective/nanocoder,ragini-pandey,India,Bangalore,12.9716,77.5946,7
+vellum-ai/vellum-assistant,Jasonnnz,United States,New York,40.7128,-74.006,405
+vellum-ai/vellum-assistant,tkheyfets,United States,New York,40.7128,-74.006,314
+vellum-ai/vellum-assistant,Shaarson,United States,New York,40.7128,-74.006,188
+vellum-ai/vellum-assistant,AnitaKirkovska,United States,New York,40.7128,-74.006,111
+HKUDS/nanobot,Athemis,Germany,Berlin,52.52,13.405,47
+HKUDS/nanobot,JiajunBernoulli,China,Beijing,39.9042,116.4074,16
+HKUDS/nanobot,boogieLing,China,Beijing,39.9042,116.4074,10
+av/harbor,sebastiondev,United Kingdom,London,51.5072,-0.1276,1
+av/harbor,eltociear,Japan,Tokyo,35.6762,139.6503,1
+osaurus-ai/osaurus,tpae,United States,San Francisco,37.7749,-122.4194,1763
+osaurus-ai/osaurus,vernonstinebaker,China,Shanghai,31.2304,121.4737,22
+osaurus-ai/osaurus,Nathan1258,United Kingdom,London,51.5072,-0.1276,5
+osaurus-ai/osaurus,drernie,United States,San Francisco,37.7749,-122.4194,2
+mx-space/core,sysfox,China,Beijing,39.9042,116.4074,5
+mx-space/core,52Lxcloud,China,Beijing,39.9042,116.4074,5
+mx-space/core,suemor233,China,Beijing,39.9042,116.4074,2
+mx-space/core,AlisaAkiron,China,Shanghai,31.2304,121.4737,2
+mx-space/core,solomon-cc,China,Beijing,39.9042,116.4074,1
+mx-space/core,XBIsland,China,Beijing,39.9042,116.4074,1
+rcarmo/piclaw,aliceisjustplaying,United Kingdom,London,51.5072,-0.1276,93
+Fu-Jie/openwebui-extensions,Fu-Jie,China,Shanghai,31.2304,121.4737,513
+Fu-Jie/openwebui-extensions,silenceroom,China,Shanghai,31.2304,121.4737,1
+openyak/openyak,wuwangzhang1216,United States,San Francisco,37.7749,-122.4194,116
+openyak/openyak,rickieplin,Canada,Toronto,43.6532,-79.3832,45
+metorial/metorial,RahmeKarim,United States,San Francisco,37.7749,-122.4194,3
+volcengine/OpenViking,qin-ctx,China,Beijing,39.9042,116.4074,132
+volcengine/OpenViking,zhoujh01,China,Beijing,39.9042,116.4074,104
+volcengine/OpenViking,MaojiaSheng,China,Beijing,39.9042,116.4074,72
+volcengine/OpenViking,Mijamind719,China,Beijing,39.9042,116.4074,17
+GeminiLight/MindOS,GeminiLight,China,Beijing,39.9042,116.4074,133
+nesquena/hermes-webui,nesquena,United States,San Francisco,37.7749,-122.4194,271
+nesquena/hermes-webui,bergeouss,France,Paris,48.8566,2.3522,55
+nesquena/hermes-webui,aronprins,Netherlands,Amsterdam,52.3676,4.9041,6
+nesquena/hermes-webui,Sanjays2402,United States,New York,40.7128,-74.006,6
+nesquena/hermes-webui,Saik0s,Netherlands,Amsterdam,52.3676,4.9041,4
+cyhhao/vibe-remote,Wangmerlyn,China,Shanghai,31.2304,121.4737,8
+cyhhao/vibe-remote,park0er,China,Beijing,39.9042,116.4074,2
+Mai-with-u/MaiBot,DrSmoothl,China,Beijing,39.9042,116.4074,799
+Mai-with-u/MaiBot,BBleae,Japan,Tokyo,35.6762,139.6503,177
+Mai-with-u/MaiBot,zhangxinhui02,China,Beijing,39.9042,116.4074,146
+Mai-with-u/MaiBot,Rikka-Sei,China,Beijing,39.9042,116.4074,103
+Mai-with-u/MaiBot,Cookie987,China,Beijing,39.9042,116.4074,37
+Mai-with-u/MaiBot,Oct-autumn,China,Beijing,39.9042,116.4074,29
+hicccc77/WeFlow,H3CoF6,China,Beijing,39.9042,116.4074,78
+hicccc77/WeFlow,XiiTang,China,Beijing,39.9042,116.4074,3
+hicccc77/WeFlow,pengstem,China,Beijing,39.9042,116.4074,2
+apexcharts/apexcharts.js,junedchhipa,India,Bangalore,12.9716,77.5946,3055
+apexcharts/apexcharts.js,rosco54,Australia,Sydney,-33.8688,151.2093,63
+MIERUNE/svelte-maplibre-gl,ciscorn,Japan,Tokyo,35.6762,139.6503,227
+MIERUNE/svelte-maplibre-gl,Kanahiro,Japan,Tokyo,35.6762,139.6503,19
+MIERUNE/svelte-maplibre-gl,yutannihilation,Japan,Tokyo,35.6762,139.6503,3
+MIERUNE/svelte-maplibre-gl,sorami,Japan,Tokyo,35.6762,139.6503,2
+MIERUNE/svelte-maplibre-gl,jackbuehner,United States,San Francisco,37.7749,-122.4194,1
+MIERUNE/svelte-maplibre-gl,NEKOYASAN,Japan,Tokyo,35.6762,139.6503,1
+jsxgraph/jsxgraph,migerh,Germany,Berlin,52.52,13.405,1608
+jsxgraph/jsxgraph,andreas-web,Germany,Berlin,52.52,13.405,274
+jsxgraph/jsxgraph,tom-berend,Canada,Toronto,43.6532,-79.3832,30
+jsxgraph/jsxgraph,geometryzen,United States,San Francisco,37.7749,-122.4194,28
+jsxgraph/jsxgraph,sebablanco,Australia,Sydney,-33.8688,151.2093,17
+jsxgraph/jsxgraph,nikolas,United States,New York,40.7128,-74.006,17
+jsxgraph/jsxgraph,christianp,United Kingdom,London,51.5072,-0.1276,13
+ILoveBingLu/CipherTalk,Guyungy,United Kingdom,London,51.5072,-0.1276,2
+clidey/whodb,majiayu000,China,Beijing,39.9042,116.4074,1
+clidey/whodb,dhimanAbhi,India,Bangalore,12.9716,77.5946,1
+matplotlib/matplotlib,tacaswell,United States,New York,40.7128,-74.006,6896
+matplotlib/matplotlib,QuLogic,Canada,Toronto,43.6532,-79.3832,5729
+matplotlib/matplotlib,timhoffm,Germany,Berlin,52.52,13.405,4478
+matplotlib/matplotlib,mdboom,United States,San Francisco,37.7749,-122.4194,3919
+matplotlib/matplotlib,jklymak,Canada,Toronto,43.6532,-79.3832,2589
+matplotlib/matplotlib,dstansby,United Kingdom,London,51.5072,-0.1276,2080
+matplotlib/matplotlib,dopplershift,United States,San Francisco,37.7749,-122.4194,590
+matplotlib/matplotlib,rcomer,United Kingdom,London,51.5072,-0.1276,537
+ArcadeData/arcadedb,tae898,Netherlands,Amsterdam,52.3676,4.9041,16
+ArcadeData/arcadedb,gfinger,Germany,Berlin,52.52,13.405,4
+ArcadeData/arcadedb,jsoref,Canada,Toronto,43.6532,-79.3832,3
+tursodatabase/turso,avinassh,India,Bangalore,12.9716,77.5946,311
+tursodatabase/turso,LeMikaelF,Canada,Toronto,43.6532,-79.3832,290
+tursodatabase/turso,Pavan-Nambi,India,Bangalore,12.9716,77.5946,150
+tursodatabase/turso,ihorandrianov,Germany,Berlin,52.52,13.405,120
+tursodatabase/turso,alpaylan,United States,San Francisco,37.7749,-122.4194,119
+tursodatabase/turso,kumarUjjawal,India,Bangalore,12.9716,77.5946,92
+cockroachdb/cockroach,knz,Netherlands,Amsterdam,52.3676,4.9041,4294
+cockroachdb/cockroach,nvb,United States,New York,40.7128,-74.006,3758
+cockroachdb/cockroach,yuzefovich,United States,San Francisco,37.7749,-122.4194,3638
+cockroachdb/cockroach,tamird,United States,New York,40.7128,-74.006,3218
+cockroachdb/cockroach,rafiss,United States,New York,40.7128,-74.006,2126
+cockroachdb/cockroach,benesch,United States,New York,40.7128,-74.006,1374
+cockroachdb/cockroach,pav-kv,United Kingdom,London,51.5072,-0.1276,1212
+cockroachdb/cockroach,otan,Australia,Sydney,-33.8688,151.2093,1196
+StarRocks/starrocks,HangyuanLiu,China,Beijing,39.9042,116.4074,722
+StarRocks/starrocks,sduzh,China,Beijing,39.9042,116.4074,615
+StarRocks/starrocks,Seaven,China,Beijing,39.9042,116.4074,608
+StarRocks/starrocks,Youngwb,China,Beijing,39.9042,116.4074,608
+StarRocks/starrocks,kevincai,China,Shanghai,31.2304,121.4737,515
+TableProApp/TablePro,nexxai,Canada,Toronto,43.6532,-79.3832,4
+TableProApp/TablePro,stolenzc,China,Beijing,39.9042,116.4074,3
+TableProApp/TablePro,tonghs,China,Beijing,39.9042,116.4074,2
+TableProApp/TablePro,overtrue,China,Beijing,39.9042,116.4074,2
+TableProApp/TablePro,michel,Netherlands,Amsterdam,52.3676,4.9041,1
+t8y2/dbx,t8y2,China,Beijing,39.9042,116.4074,440
+t8y2/dbx,agent-43,Japan,Tokyo,35.6762,139.6503,6
+t8y2/dbx,wu-clan,China,Beijing,39.9042,116.4074,4
+t8y2/dbx,wds824,China,Beijing,39.9042,116.4074,3
+t8y2/dbx,kingcanfish,China,Beijing,39.9042,116.4074,1
+databasus/databasus,wzzrd,Netherlands,Amsterdam,52.3676,4.9041,1
+databasus/databasus,omerkarabacak,Germany,Berlin,52.52,13.405,1
+rqlite/rqlite,jtackaberry,Canada,Toronto,43.6532,-79.3832,6
+rqlite/rqlite,turbo,Germany,Berlin,52.52,13.405,5
+rqlite/rqlite,zmedico,United States,San Francisco,37.7749,-122.4194,5
+rqlite/rqlite,alexandear,United Kingdom,London,51.5072,-0.1276,5
+rqlite/rqlite,andreasstieger,Germany,Berlin,52.52,13.405,3
+rqlite/rqlite,chermehdi,United Kingdom,London,51.5072,-0.1276,2
+rqlite/rqlite,seraphico,China,Beijing,39.9042,116.4074,2
+rqlite/rqlite,mkideal,China,Beijing,39.9042,116.4074,2
+databendlabs/databend,drmingdrmer,China,Beijing,39.9042,116.4074,1679
+databendlabs/databend,youngsofun,China,Beijing,39.9042,116.4074,1533
+databendlabs/databend,andylokandy,China,Beijing,39.9042,116.4074,691
+databendlabs/databend,b41sh,China,Beijing,39.9042,116.4074,640
+databendlabs/databend,TCeason,China,Beijing,39.9042,116.4074,639
+EhTagTranslation/Database,OpportunityLiu,China,Beijing,39.9042,116.4074,2001
+EhTagTranslation/Database,xiejinglong,China,Beijing,39.9042,116.4074,1519
+EhTagTranslation/Database,ZerOri,China,Beijing,39.9042,116.4074,941
+EhTagTranslation/Database,ForsakenRei,United States,San Francisco,37.7749,-122.4194,797
+EhTagTranslation/Database,AXIS5hacker,China,Beijing,39.9042,116.4074,747
+seaweedfs/seaweedfs,chrislusf,United States,San Francisco,37.7749,-122.4194,9467
+seaweedfs/seaweedfs,bingoohuang,China,Beijing,39.9042,116.4074,46
+seaweedfs/seaweedfs,guo-sj,China,Beijing,39.9042,116.4074,32
+seaweedfs/seaweedfs,DragonStuff,Japan,Tokyo,35.6762,139.6503,29
+seaweedfs/seaweedfs,yanyiwu,China,Beijing,39.9042,116.4074,28
+seaweedfs/seaweedfs,blacktear23,China,Beijing,39.9042,116.4074,25
+kube-green/kube-green,christianhuth,Germany,Berlin,52.52,13.405,2
+kube-green/kube-green,hiromi-mi,Japan,Tokyo,35.6762,139.6503,1
+kube-green/kube-green,viktor42b,France,Paris,48.8566,2.3522,1
+kube-green/kube-green,BenjaminBurton,United States,New York,40.7128,-74.006,1
+kube-green/kube-green,gustavobini,Netherlands,Amsterdam,52.3676,4.9041,1
+NeptuneHub/AudioMuse-AI,b02laire,France,Paris,48.8566,2.3522,6
+NeptuneHub/AudioMuse-AI,ravenscroftj,United Kingdom,London,51.5072,-0.1276,3
+bjw-s-labs/home-ops,bjw-s,Netherlands,Amsterdam,52.3676,4.9041,6722
+bjw-s-labs/home-ops,roperscrossroads,United States,San Francisco,37.7749,-122.4194,1
+bjw-s-labs/home-ops,eleboucher,France,Paris,48.8566,2.3522,1
+bjw-s-labs/home-ops,robinschneider,Germany,Berlin,52.52,13.405,1
+mkubaczyk/helmsman,chenrui333,United States,New York,40.7128,-74.006,9
+mkubaczyk/helmsman,ndegory,United States,San Francisco,37.7749,-122.4194,8
+mkubaczyk/helmsman,hatemosphere,United Kingdom,London,51.5072,-0.1276,6
+mkubaczyk/helmsman,lachlancooper,Australia,Sydney,-33.8688,151.2093,4
+pulumi/pulumi,Zaid-Ajaj,Netherlands,Amsterdam,52.3676,4.9041,395
+pulumi/pulumi,AaronFriel,United States,San Francisco,37.7749,-122.4194,315
+pulumi/pulumi,abhinav,United States,San Francisco,37.7749,-122.4194,284
+jhipster/generator-jhipster,jdubois,France,Paris,48.8566,2.3522,4874
+jhipster/generator-jhipster,deepu105,Netherlands,Amsterdam,52.3676,4.9041,3955
+jhipster/generator-jhipster,pascalgrimaud,France,Paris,48.8566,2.3522,3409
+jhipster/generator-jhipster,qmonmert,France,Paris,48.8566,2.3522,2412
+jhipster/generator-jhipster,sendilkumarn,Netherlands,Amsterdam,52.3676,4.9041,644
+jhipster/generator-jhipster,Tcharl,France,Paris,48.8566,2.3522,623
+jhipster/generator-jhipster,atomfrede,Germany,Berlin,52.52,13.405,621
+jhipster/generator-jhipster,MathieuAA,France,Paris,48.8566,2.3522,574
+jhipster/generator-jhipster,ruddell,India,Bangalore,12.9716,77.5946,519
+jhipster/generator-jhipster,PierreBesson,France,Paris,48.8566,2.3522,483
+jhipster/generator-jhipster,murdos,France,Paris,48.8566,2.3522,378
+jhipster/generator-jhipster,cbornet,France,Paris,48.8566,2.3522,371
+jhipster/generator-jhipster,jmirc,Canada,Toronto,43.6532,-79.3832,349
+jhipster/generator-jhipster,avdev4j,France,Paris,48.8566,2.3522,336
+netbox-community/netbox-chart,bootc,United Kingdom,London,51.5072,-0.1276,158
+netbox-community/netbox-chart,moonrail,Germany,Berlin,52.52,13.405,4
+netbox-community/netbox-chart,bmhughes,United Kingdom,London,51.5072,-0.1276,3
+kubenav/kubenav,ricoberger,Germany,Berlin,52.52,13.405,1118
+kubenav/kubenav,matthiastz,Germany,Berlin,52.52,13.405,3
+kubenav/kubenav,madeddie,United States,New York,40.7128,-74.006,2
+kubenav/kubenav,usmanatron,United Kingdom,London,51.5072,-0.1276,1
+floci-io/floci,okinaka,Japan,Tokyo,35.6762,139.6503,26
+floci-io/floci,iam-ssrivastav,India,Bangalore,12.9716,77.5946,7
+kimdre/doco-cd,kimdre,Germany,Berlin,52.52,13.405,785
+kimdre/doco-cd,p0lycarpio,France,Paris,48.8566,2.3522,2
+kimdre/doco-cd,bjw-s,Netherlands,Amsterdam,52.3676,4.9041,2
+kimdre/doco-cd,danroc,France,Paris,48.8566,2.3522,2
+kimdre/doco-cd,tldev,United States,New York,40.7128,-74.006,1
+kimdre/doco-cd,clstb,Germany,Berlin,52.52,13.405,1
+IBM/mcp-context-forge,shoummu1,India,Bangalore,12.9716,77.5946,76
+IBM/mcp-context-forge,Jay-IRL,India,Bangalore,12.9716,77.5946,59
+IBM/mcp-context-forge,araujof,United States,San Francisco,37.7749,-122.4194,31
+k8sgpt-ai/k8sgpt,AlexsJones,United Kingdom,London,51.5072,-0.1276,326
+k8sgpt-ai/k8sgpt,matthisholleville,France,Paris,48.8566,2.3522,82
+k8sgpt-ai/k8sgpt,rakshitgondwal,India,Bangalore,12.9716,77.5946,12
+k8sgpt-ai/k8sgpt,yankay,China,Shanghai,31.2304,121.4737,8
+k8sgpt-ai/k8sgpt,jianzhangbjz,China,Beijing,39.9042,116.4074,4
+openebs/openebs,kmova,India,Bangalore,12.9716,77.5946,365
+openebs/openebs,tiagolobocastro,United Kingdom,London,51.5072,-0.1276,102
+openebs/openebs,niladrih,India,Bangalore,12.9716,77.5946,71
+openebs/openebs,gprasath,India,Bangalore,12.9716,77.5946,52
+openebs/openebs,muratkars,United States,San Francisco,37.7749,-122.4194,51
+openebs/openebs,shubham14bajpai,India,Bangalore,12.9716,77.5946,45
+openebs/openebs,umamukkara,India,Bangalore,12.9716,77.5946,45
+openebs/openebs,vibhor995,India,Bangalore,12.9716,77.5946,33
+openebs/openebs,akhilerm,India,Bangalore,12.9716,77.5946,30
+openebs/openebs,ranjithwingrider,India,Bangalore,12.9716,77.5946,26
+superplanehq/superplane,manasa-bhagwat,India,Bangalore,12.9716,77.5946,8
+serversideup/spin,jaydrogers,United Kingdom,London,51.5072,-0.1276,271
+serversideup/spin,danpastori,United Kingdom,London,51.5072,-0.1276,11
+serversideup/spin,oldskool73,Australia,Sydney,-33.8688,151.2093,1
+serversideup/spin,nexxai,Canada,Toronto,43.6532,-79.3832,1
+getsentry/sentry,dcramer,United States,San Francisco,37.7749,-122.4194,11388
+getsentry/sentry,evanpurkhiser,United States,New York,40.7128,-74.006,5959
+getsentry/sentry,scttcper,United States,San Francisco,37.7749,-122.4194,3147
+getsentry/sentry,markstory,Canada,Toronto,43.6532,-79.3832,2675
+getsentry/sentry,billyvg,United States,San Francisco,37.7749,-122.4194,2509
+getsentry/sentry,Zylphrex,Canada,Toronto,43.6532,-79.3832,2430
+getsentry/sentry,ckj,United States,San Francisco,37.7749,-122.4194,1940
+getsentry/sentry,JonasBa,United States,San Francisco,37.7749,-122.4194,1910
+getsentry/sentry,ryan953,United States,San Francisco,37.7749,-122.4194,1724
+getsentry/sentry,malwilley,United States,San Francisco,37.7749,-122.4194,1569
+getsentry/sentry,wmak,Canada,Toronto,43.6532,-79.3832,1283
+getsentry/sentry,DominikB2014,Canada,Toronto,43.6532,-79.3832,1224
+woodpecker-ci/woodpecker,xoxys,Germany,Berlin,52.52,13.405,199
+woodpecker-ci/woodpecker,lukashass,Germany,Berlin,52.52,13.405,66
+woodpecker-ci/woodpecker,donny-dont,United States,San Francisco,37.7749,-122.4194,27
+kviklet/kviklet,Askir,Germany,Berlin,52.52,13.405,312
+kviklet/kviklet,IR-DAN,Germany,Berlin,52.52,13.405,3
+kviklet/kviklet,VIDGuide,Australia,Sydney,-33.8688,151.2093,1
+Tracer-Cloud/opensre,davincios,United Kingdom,London,51.5072,-0.1276,594
+Tracer-Cloud/opensre,VaibhavUpreti,United Kingdom,London,51.5072,-0.1276,313
+Tracer-Cloud/opensre,muddlebee,India,Bangalore,12.9716,77.5946,66
+Tracer-Cloud/opensre,sundaram2021,India,Bangalore,12.9716,77.5946,10
+Tracer-Cloud/opensre,7vignesh,India,Bangalore,12.9716,77.5946,9
+ENTERPILOT/GoModel,octo-patch,United States,San Francisco,37.7749,-122.4194,1
+ENTERPILOT/GoModel,epicfilemcnulty,United Kingdom,London,51.5072,-0.1276,1
+adriannovegil/awesome-observability,cguimaraes,Germany,Berlin,52.52,13.405,1
+adriannovegil/awesome-observability,OrlovEvgeny,Netherlands,Amsterdam,52.3676,4.9041,1
+adriannovegil/awesome-observability,gorkem-bwl,Canada,Toronto,43.6532,-79.3832,1
+adriannovegil/awesome-observability,Firefishy,United Kingdom,London,51.5072,-0.1276,1
+adriannovegil/awesome-observability,terdia,Germany,Berlin,52.52,13.405,1
+elastic/kibana,shahzad31,Germany,Berlin,52.52,13.405,1158
+elastic/kibana,flash1293,Germany,Berlin,52.52,13.405,1042
+elastic/kibana,pgayvallet,United States,San Francisco,37.7749,-122.4194,831
+elastic/kibana,tsullivan,United States,San Francisco,37.7749,-122.4194,821
+elastic/kibana,dmlemeshko,Germany,Berlin,52.52,13.405,686
+Linuxfabrik/monitoring-plugins,SnejPro,Germany,Berlin,52.52,13.405,3
+Linuxfabrik/monitoring-plugins,berrnd,Germany,Berlin,52.52,13.405,3
+Linuxfabrik/monitoring-plugins,djmcd89,Germany,Berlin,52.52,13.405,1
+langfuse/langfuse,maxdeichmann,Germany,Berlin,52.52,13.405,1480
+langfuse/langfuse,Steffen911,Germany,Berlin,52.52,13.405,872
+langfuse/langfuse,hassiebp,Germany,Berlin,52.52,13.405,530
+langfuse/langfuse,nimarb,Japan,Tokyo,35.6762,139.6503,487
+langfuse/langfuse,sumerman,Germany,Berlin,52.52,13.405,219
+langfuse/langfuse,RichardKruemmel,Germany,Berlin,52.52,13.405,62
+langfuse/langfuse,bezbac,Germany,Berlin,52.52,13.405,47
+langfuse/langfuse,leoweigand,Germany,Berlin,52.52,13.405,42
+langfuse/langfuse,clemra,Germany,Berlin,52.52,13.405,28
+langfuse/langfuse,Lotte-Verheyden,United States,San Francisco,37.7749,-122.4194,15
+langfuse/langfuse,davidmc971,Germany,Berlin,52.52,13.405,14
+langwatch/langwatch,rogeriochaves,Netherlands,Amsterdam,52.3676,4.9041,2296
+langwatch/langwatch,drewdrewthis,France,Paris,48.8566,2.3522,568
+langwatch/langwatch,0xdeafcafe,Netherlands,Amsterdam,52.3676,4.9041,475
+langwatch/langwatch,sergioestebance,Netherlands,Amsterdam,52.3676,4.9041,225
+langwatch/langwatch,Eugenumber1,Netherlands,Amsterdam,52.3676,4.9041,50
+langwatch/langwatch,Aryansharma28,Netherlands,Amsterdam,52.3676,4.9041,33
+langwatch/langwatch,msnmz,Netherlands,Amsterdam,52.3676,4.9041,4
+langwatch/langwatch,tahmidtapadar,Netherlands,Amsterdam,52.3676,4.9041,2
+jaegertracing/jaeger,yurishkuro,United States,New York,40.7128,-74.006,858
+jaegertracing/jaeger,mahadzaryab1,United States,New York,40.7128,-74.006,234
+jaegertracing/jaeger,albertteoh,Australia,Sydney,-33.8688,151.2093,104
+jaegertracing/jaeger,jpkrohling,Germany,Berlin,52.52,13.405,75
+jaegertracing/jaeger,black-adder,United States,New York,40.7128,-74.006,69
+jaegertracing/jaeger,vprithvi,United States,New York,40.7128,-74.006,37
+jaegertracing/jaeger,mh-park,United States,San Francisco,37.7749,-122.4194,32
+jaegertracing/jaeger,mmorel-35,France,Paris,48.8566,2.3522,31
+iopsystems/rezolus,thinkingfish,United States,San Francisco,37.7749,-122.4194,137
+iopsystems/rezolus,yangxi,Australia,Sydney,-33.8688,151.2093,22
+iopsystems/rezolus,redhotpenguin,United States,San Francisco,37.7749,-122.4194,1
+iopsystems/rezolus,tmcarr,United States,New York,40.7128,-74.006,1
+iopsystems/rezolus,u5surf,Japan,Tokyo,35.6762,139.6503,1
+alexandre-daubois/ember,alexandre-daubois,France,Paris,48.8566,2.3522,219
+alexandre-daubois/ember,94noni,France,Paris,48.8566,2.3522,4
+alexandre-daubois/ember,yoanbernabeu,France,Paris,48.8566,2.3522,1
+yegor256/takes,yegor256,China,Beijing,39.9042,116.4074,446
+yegor256/takes,rultor,United States,San Francisco,37.7749,-122.4194,348
+yegor256/takes,ikhvostenkov,Germany,Berlin,52.52,13.405,91
+yegor256/takes,essobedo,France,Paris,48.8566,2.3522,82
+yegor256/takes,fevzian,Canada,Toronto,43.6532,-79.3832,40
+flutter/flutter,abarth,United States,San Francisco,37.7749,-122.4194,3425
+flutter/flutter,chinmaygarde,United States,San Francisco,37.7749,-122.4194,1783
+flutter/flutter,cbracken,Japan,Tokyo,35.6762,139.6503,1448
+flutter/flutter,bkonyi,Canada,Toronto,43.6532,-79.3832,848
+flutter/flutter,yjbanov,United States,San Francisco,37.7749,-122.4194,807
+expo/expo,brentvatne,Canada,Toronto,43.6532,-79.3832,3151
+expo/expo,EvanBacon,United States,San Francisco,37.7749,-122.4194,2013
+expo/expo,byCedric,Netherlands,Amsterdam,52.3676,4.9041,697
+expo/expo,kitten,United Kingdom,London,51.5072,-0.1276,478
+ktorio/ktor,bjhham,Netherlands,Amsterdam,52.3676,4.9041,218
+ktorio/ktor,dmitrievanthony,United Kingdom,London,51.5072,-0.1276,46
+ktorio/ktor,hfhbd,Germany,Berlin,52.52,13.405,39
+ktorio/ktor,Thomas-Vos,Netherlands,Amsterdam,52.3676,4.9041,33
+frappe/frappe,rmehta,India,Bangalore,12.9716,77.5946,6219
+frappe/frappe,anandpdoshi,United States,San Francisco,37.7749,-122.4194,2915
+frappe/frappe,nabinhait,India,Bangalore,12.9716,77.5946,2506
+frappe/frappe,gavindsouza,Germany,Berlin,52.52,13.405,2129
+frappe/frappe,akhilnarang,India,Bangalore,12.9716,77.5946,1299
+frappe/frappe,sagarvora,India,Bangalore,12.9716,77.5946,1029
+apache/ofbiz-framework,JacquesLeRoux,France,Paris,48.8566,2.3522,7702
+apache/ofbiz-framework,ashishvijaywargiya,India,Bangalore,12.9716,77.5946,1002
+apache/ofbiz-framework,dixitdeepak,India,Bangalore,12.9716,77.5946,697
+apache/ofbiz-framework,andrewzeneski,United States,New York,40.7128,-74.006,686
+apache/ofbiz-framework,nmalin,France,Paris,48.8566,2.3522,518
+apache/ofbiz-framework,mbrohl,Germany,Berlin,52.52,13.405,444
+apache/ofbiz-framework,mthl,France,Paris,48.8566,2.3522,276
+apache/ofbiz-framework,PierreSmits,Netherlands,Amsterdam,52.3676,4.9041,228
+flamego/flamego,wuhan005,China,Shanghai,31.2304,121.4737,9
+flamego/flamego,dsh0416,China,Shanghai,31.2304,121.4737,7
+clockworklabs/SpacetimeDB,kim,Germany,Berlin,52.52,13.405,237
+clockworklabs/SpacetimeDB,jdetter,United States,San Francisco,37.7749,-122.4194,228
+clockworklabs/SpacetimeDB,cloutiertyler,United States,San Francisco,37.7749,-122.4194,223
+clockworklabs/SpacetimeDB,gefjon,United States,New York,40.7128,-74.006,208
+clockworklabs/SpacetimeDB,drogus,Germany,Berlin,52.52,13.405,111
+clockworklabs/SpacetimeDB,jsdt,United States,San Francisco,37.7749,-122.4194,90
+userfrosting/UserFrosting,alexweissman,India,Bangalore,12.9716,77.5946,885
+userfrosting/UserFrosting,Silic0nS0ldier,Australia,Sydney,-33.8688,151.2093,177
+userfrosting/UserFrosting,lilfade,United States,San Francisco,37.7749,-122.4194,121
+userfrosting/UserFrosting,X-Anonymous-Y,Germany,Berlin,52.52,13.405,16
+userfrosting/UserFrosting,Ekwav,Germany,Berlin,52.52,13.405,10
+userfrosting/UserFrosting,Netrilix,United States,San Francisco,37.7749,-122.4194,8
+userfrosting/UserFrosting,rwos,Germany,Berlin,52.52,13.405,6
+userfrosting/UserFrosting,xrobau,Australia,Sydney,-33.8688,151.2093,5
+schultek/jaspr,slightfoot,United Kingdom,London,51.5072,-0.1276,6
+schultek/jaspr,lucas-goldner,Japan,Tokyo,35.6762,139.6503,5
+phoenixframework/phoenix,Gazler,United Kingdom,London,51.5072,-0.1276,184
+phoenixframework/phoenix,fertapric,Netherlands,Amsterdam,52.3676,4.9041,27
+phoenixframework/phoenix,LostKobrakai,Germany,Berlin,52.52,13.405,23
+phoenixframework/phoenix,michalmuskala,United Kingdom,London,51.5072,-0.1276,23
+dropwizard/dropwizard,joschi,Germany,Berlin,52.52,13.405,1400
+dropwizard/dropwizard,arteam,Germany,Berlin,52.52,13.405,495
+dropwizard/dropwizard,jplock,United States,San Francisco,37.7749,-122.4194,460
+dropwizard/dropwizard,rhowe,United Kingdom,London,51.5072,-0.1276,210
+dropwizard/dropwizard,nicktelford,United Kingdom,London,51.5072,-0.1276,149
+dropwizard/dropwizard,carlo-rtr,United States,San Francisco,37.7749,-122.4194,139
+dropwizard/dropwizard,zUniQueX,Germany,Berlin,52.52,13.405,104
+dropwizard/dropwizard,grahamoregan,United Kingdom,London,51.5072,-0.1276,20
+dropwizard/dropwizard,cmicali,United States,San Francisco,37.7749,-122.4194,16
+dropwizard/dropwizard,FredDeschenes,Canada,Toronto,43.6532,-79.3832,15
+flaviuse/mern-authentication,ujjwal-kr,India,Bangalore,12.9716,77.5946,5
+flaviuse/mern-authentication,socialcode-rob1,Canada,Toronto,43.6532,-79.3832,1
+home-assistant/frontend,spacegaier,Germany,Berlin,52.52,13.405,499
+home-assistant/frontend,timmo001,United Kingdom,London,51.5072,-0.1276,446
+home-assistant/frontend,frenck,Netherlands,Amsterdam,52.3676,4.9041,177
+home-assistant/frontend,jpbede,Germany,Berlin,52.52,13.405,166
+webstudio-is/webstudio,kof,Germany,Berlin,52.52,13.405,2064
+webstudio-is/webstudio,SaraVieira,United Kingdom,London,51.5072,-0.1276,436
+webstudio-is/webstudio,JayaKrishnaNamburu,India,Bangalore,12.9716,77.5946,114
+webstudio-is/webstudio,LonJonn,Australia,Sydney,-33.8688,151.2093,2
+neomjs/neo,tobiu,Germany,Berlin,52.52,13.405,19894
+neomjs/neo,neo-gemini-3-1-pro,Germany,Berlin,52.52,13.405,238
+neomjs/neo,Dinkh,Germany,Berlin,52.52,13.405,197
+neomjs/neo,neo-opus-4-7,Germany,Berlin,52.52,13.405,122
+neomjs/neo,ExtAnimal,France,Paris,48.8566,2.3522,77
+neomjs/neo,neo-gpt,Germany,Berlin,52.52,13.405,54
+neomjs/neo,mrsunshine,Germany,Berlin,52.52,13.405,11
+neomjs/neo,Aki-07,India,Bangalore,12.9716,77.5946,9
+ezshine/AwesomeSites,ezshine,China,Beijing,39.9042,116.4074,1015
+D-Sketon/hexo-theme-reimu,D-Sketon,China,Shanghai,31.2304,121.4737,671
+D-Sketon/hexo-theme-reimu,TonyXie30,China,Beijing,39.9042,116.4074,1
+D-Sketon/hexo-theme-reimu,reindex-ot,Japan,Tokyo,35.6762,139.6503,1
+xiaoiver/infinite-canvas-tutorial,r04423,Germany,Berlin,52.52,13.405,3
+xiaoiver/infinite-canvas-tutorial,semanser,United Kingdom,London,51.5072,-0.1276,1
+xiaoiver/infinite-canvas-tutorial,pearmini,United States,New York,40.7128,-74.006,1
+web-infra-dev/rsbuild,chenjiahan,China,Beijing,39.9042,116.4074,4403
+web-infra-dev/rsbuild,9aoy,China,Beijing,39.9042,116.4074,421
+web-infra-dev/rsbuild,caohuilin,China,Shanghai,31.2304,121.4737,6
+KudoAI/chatgpt.js,adamlui,United States,San Francisco,37.7749,-122.4194,4570
+KudoAI/chatgpt.js,m-k8s,France,Paris,48.8566,2.3522,2
+KudoAI/chatgpt.js,eltociear,Japan,Tokyo,35.6762,139.6503,2
+TailGrids/tailgrids,Vinishbhaskar,India,Bangalore,12.9716,77.5946,5
+farm-fe/farm,wre232114,China,Beijing,39.9042,116.4074,374
+farm-fe/farm,shulandmimi,China,Beijing,39.9042,116.4074,75
+farm-fe/farm,callqh,China,Beijing,39.9042,116.4074,30
+farm-fe/farm,fu050409,China,Beijing,39.9042,116.4074,20
+farm-fe/farm,Maidang1,China,Shanghai,31.2304,121.4737,4
+farm-fe/farm,NaturelLee,China,Beijing,39.9042,116.4074,3
+farm-fe/farm,yejimeiming,China,Beijing,39.9042,116.4074,3
+apache/solr,shalinmangar,India,Bangalore,12.9716,77.5946,1338
+apache/solr,jpountz,France,Paris,48.8566,2.3522,1073
+apache/solr,s1monw,Germany,Berlin,52.52,13.405,747
+apache/solr,romseygeek,United Kingdom,London,51.5072,-0.1276,460
+pocketbase/pocketbase,yuxiang-gao,China,Shanghai,31.2304,121.4737,3
+pocketbase/pocketbase,KunalSin9h,India,Bangalore,12.9716,77.5946,2
+pocketbase/pocketbase,MarvinJWendt,Germany,Berlin,52.52,13.405,2
+pocketbase/pocketbase,ghostdevv,United Kingdom,London,51.5072,-0.1276,2
+pocketbase/pocketbase,clysto,China,Beijing,39.9042,116.4074,2
+pocketbase/pocketbase,azat-ismagilov,United Kingdom,London,51.5072,-0.1276,1
+pocketbase/pocketbase,yerTools,Germany,Berlin,52.52,13.405,1
+get-convex/convex-backend,Nicolapps,United States,San Francisco,37.7749,-122.4194,924
+get-convex/convex-backend,nipunn1313,United States,San Francisco,37.7749,-122.4194,732
+get-convex/convex-backend,goffrie,United States,San Francisco,37.7749,-122.4194,687
+get-convex/convex-backend,emmaling27,United States,San Francisco,37.7749,-122.4194,452
+get-convex/convex-backend,gautamg795,United States,San Francisco,37.7749,-122.4194,182
+get-convex/convex-backend,reeceyang,United States,San Francisco,37.7749,-122.4194,167
+get-convex/convex-backend,ianmacartney,United States,San Francisco,37.7749,-122.4194,120
+get-convex/convex-backend,sjudd,United States,San Francisco,37.7749,-122.4194,111
+get-convex/convex-backend,xixixao,United States,San Francisco,37.7749,-122.4194,33
+kurtosis-tech/kurtosis,h4ck3rk3y,United States,San Francisco,37.7749,-122.4194,238
+kurtosis-tech/kurtosis,leeederek,United States,New York,40.7128,-74.006,90
+kurtosis-tech/kurtosis,leovct,France,Paris,48.8566,2.3522,9
+kurtosis-tech/kurtosis,mattevans,Australia,Sydney,-33.8688,151.2093,3
+metalbear-co/mirrord,gememma,United Kingdom,London,51.5072,-0.1276,88
+apioo/fusio,chriskapp,Germany,Berlin,52.52,13.405,1948
+apioo/fusio,Draeli,France,Paris,48.8566,2.3522,1
+FrancescoXX/rustcrab,DhairyaMajmudar,India,Bangalore,12.9716,77.5946,13
+FrancescoXX/rustcrab,Vijaykv5,India,Bangalore,12.9716,77.5946,4
+FrancescoXX/rustcrab,soham901,India,Bangalore,12.9716,77.5946,3
+FrancescoXX/rustcrab,leetebbs,United Kingdom,London,51.5072,-0.1276,3
+FrancescoXX/rustcrab,felixoder,India,Bangalore,12.9716,77.5946,3
+FrancescoXX/rustcrab,saivinay-g,United States,San Francisco,37.7749,-122.4194,3
+FrancescoXX/rustcrab,dvpavan-kumar,India,Bangalore,12.9716,77.5946,2
+FrancescoXX/rustcrab,vasu962,India,Bangalore,12.9716,77.5946,1
+EasyCorp/EasyAdminBundle,ogizanagi,France,Paris,48.8566,2.3522,95
+EasyCorp/EasyAdminBundle,xabbuh,Germany,Berlin,52.52,13.405,68
+EasyCorp/EasyAdminBundle,Pierstoval,France,Paris,48.8566,2.3522,55
+EasyCorp/EasyAdminBundle,VincentLanglet,France,Paris,48.8566,2.3522,12
+EasyCorp/EasyAdminBundle,a-r-m-i-n,Germany,Berlin,52.52,13.405,12
+ppy/osu-web,peppy,Japan,Tokyo,35.6762,139.6503,3987
+ppy/osu-web,nekodex,Japan,Tokyo,35.6762,139.6503,2873
+ppy/osu-web,kj415j45,China,Beijing,39.9042,116.4074,215
+ppy/osu-web,tsunyoku,United Kingdom,London,51.5072,-0.1276,130
+ppy/osu-web,smoogipoo,Japan,Tokyo,35.6762,139.6503,123
+ppy/osu-web,ThePooN,France,Paris,48.8566,2.3522,95
+commaai/openpilot,pd0wm,Netherlands,Amsterdam,52.3676,4.9041,1573
+commaai/openpilot,maxime-desroches,Canada,Toronto,43.6532,-79.3832,420
+commaai/openpilot,incognitojam,United Kingdom,London,51.5072,-0.1276,280
+TagStudioDev/TagStudio,DrRetro2033,Canada,Toronto,43.6532,-79.3832,16
+TagStudioDev/TagStudio,SkeleyM,United Kingdom,London,51.5072,-0.1276,15
+PostHog/posthog,pauldambra,United Kingdom,London,51.5072,-0.1276,2913
+PostHog/posthog,benjackwhite,Germany,Berlin,52.52,13.405,1538
+PostHog/posthog,Gilbert09,United Kingdom,London,51.5072,-0.1276,1029
+PostHog/posthog,thmsobrmlr,Germany,Berlin,52.52,13.405,944
+PostHog/posthog,webjunkie,Germany,Berlin,52.52,13.405,648
+PostHog/posthog,neilkakkar,United Kingdom,London,51.5072,-0.1276,625
+PostHog/posthog,robbie-c,United Kingdom,London,51.5072,-0.1276,576
+PostHog/posthog,jurajmajerik,Netherlands,Amsterdam,52.3676,4.9041,526
+PostHog/posthog,fuziontech,United States,San Francisco,37.7749,-122.4194,461
+LearningCircuit/local-deep-research,devtcu,United States,New York,40.7128,-74.006,5
+stamparm/maltrail,MikhailKasimov,United Kingdom,London,51.5072,-0.1276,5490
+pytorch/executorch,mergennachin,United States,New York,40.7128,-74.006,321
+pytorch/executorch,SS-JIA,United States,New York,40.7128,-74.006,237
+pytorch/executorch,Gasoonjia,China,Beijing,39.9042,116.4074,233
+pytorch/executorch,mcr229,United States,San Francisco,37.7749,-122.4194,229

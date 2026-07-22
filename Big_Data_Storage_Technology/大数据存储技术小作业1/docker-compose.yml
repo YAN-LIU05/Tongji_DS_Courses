@@ -1,0 +1,46 @@
+name: hadoop-hdfs-lab
+
+services:
+  hadoop-master:
+    image: ubuntu:22.04
+    container_name: hadoop-master
+    hostname: hadoop-master
+    command: ["sleep", "infinity"]
+    init: true
+    ports:
+      - "18070:9870"
+    volumes:
+      - ./config:/workspace/config:ro
+      - ./scripts:/workspace/scripts:ro
+      - ./src:/workspace/src:ro
+    networks:
+      - hadoop-network
+
+  hadoop-worker-1:
+    image: ubuntu:22.04
+    container_name: hadoop-worker-1
+    hostname: hadoop-worker-1
+    command: ["sleep", "infinity"]
+    init: true
+    volumes:
+      - ./config:/workspace/config:ro
+      - ./scripts:/workspace/scripts:ro
+    networks:
+      - hadoop-network
+
+  hadoop-worker-2:
+    image: ubuntu:22.04
+    container_name: hadoop-worker-2
+    hostname: hadoop-worker-2
+    command: ["sleep", "infinity"]
+    init: true
+    volumes:
+      - ./config:/workspace/config:ro
+      - ./scripts:/workspace/scripts:ro
+    networks:
+      - hadoop-network
+
+networks:
+  hadoop-network:
+    driver: bridge
+

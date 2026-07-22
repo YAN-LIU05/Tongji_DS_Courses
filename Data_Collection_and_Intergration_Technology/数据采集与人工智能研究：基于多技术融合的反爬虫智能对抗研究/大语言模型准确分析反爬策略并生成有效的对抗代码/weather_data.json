@@ -1,0 +1,44 @@
+[
+  {
+    "date": "19日（今天）",
+    "weather": "阴",
+    "temperature": "13℃",
+    "wind": "<3级"
+  },
+  {
+    "date": "20日（明天）",
+    "weather": "阴",
+    "temperature": "19℃/8℃",
+    "wind": "<3级"
+  },
+  {
+    "date": "21日（后天）",
+    "weather": "阴",
+    "temperature": "10℃/5℃",
+    "wind": "4-5级"
+  },
+  {
+    "date": "22日（周一）",
+    "weather": "阴",
+    "temperature": "12℃/8℃",
+    "wind": "3-4级转<3级"
+  },
+  {
+    "date": "23日（周二）",
+    "weather": "阴",
+    "temperature": "19℃/7℃",
+    "wind": "3-4级转<3级"
+  },
+  {
+    "date": "24日（周三）",
+    "weather": "阴",
+    "temperature": "10℃/6℃",
+    "wind": "3-4级转4-5级"
+  },
+  {
+    "date": "25日（周四）",
+    "weather": "阴",
+    "temperature": "9℃/4℃",
+    "wind": "3-4级转4-5级"
+  }
+]

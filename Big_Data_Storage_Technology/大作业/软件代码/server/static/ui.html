@@ -1,0 +1,687 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raft KV Console</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --panel-2: #f0f5f4;
+      --text: #172026;
+      --muted: #64717c;
+      --line: #d7dee4;
+      --blue: #2364aa;
+      --green: #217a57;
+      --orange: #a75d10;
+      --red: #b42318;
+      --shadow: 0 10px 28px rgba(25, 36, 45, 0.08);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    button {
+      border: 1px solid var(--line);
+      background: #ffffff;
+      color: var(--text);
+      border-radius: 6px;
+      min-height: 34px;
+      padding: 0 12px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      border-color: #9fb4c4;
+      background: #f8fbfd;
+    }
+
+    button.primary {
+      border-color: var(--blue);
+      background: var(--blue);
+      color: #ffffff;
+    }
+
+    button.danger {
+      border-color: #e2b8b3;
+      color: var(--red);
+    }
+
+    input {
+      width: 100%;
+      min-height: 34px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 0 10px;
+      background: #ffffff;
+      color: var(--text);
+    }
+
+    label {
+      display: grid;
+      gap: 5px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .shell {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      min-height: 100vh;
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 18px;
+      align-items: center;
+      padding: 16px 24px;
+      border-bottom: 1px solid var(--line);
+      background: #ffffff;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
+    .mark {
+      display: grid;
+      place-items: center;
+      width: 38px;
+      height: 38px;
+      border-radius: 8px;
+      background: var(--panel-2);
+      color: var(--green);
+      font-weight: 800;
+    }
+
+    .brand h1 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+
+    .brand p {
+      margin: 3px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: minmax(260px, 380px) auto auto;
+      gap: 8px;
+      align-items: end;
+    }
+
+    .ports {
+      display: flex;
+      gap: 6px;
+    }
+
+    .ports button {
+      min-width: 46px;
+      padding: 0 8px;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: minmax(560px, 1.35fr) minmax(360px, 0.9fr);
+      gap: 18px;
+      padding: 18px 24px 24px;
+      align-items: start;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      min-height: 48px;
+      padding: 0 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .panel h2 {
+      margin: 0;
+      font-size: 15px;
+      letter-spacing: 0;
+    }
+
+    .panel-body {
+      padding: 16px;
+    }
+
+    .stack {
+      display: grid;
+      gap: 18px;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(120px, 1fr));
+      gap: 10px;
+    }
+
+    .stat {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px 12px;
+      background: #fbfcfd;
+      min-height: 66px;
+    }
+
+    .stat span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .stat strong {
+      display: block;
+      margin-top: 8px;
+      font-size: 18px;
+      line-height: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    th,
+    td {
+      padding: 9px 8px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+
+    th {
+      color: var(--muted);
+      font-weight: 600;
+      background: #fbfcfd;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .role {
+      display: inline-flex;
+      align-items: center;
+      min-width: 76px;
+      justify-content: center;
+      border-radius: 999px;
+      padding: 3px 9px;
+      border: 1px solid var(--line);
+      font-size: 12px;
+      color: var(--muted);
+      background: #ffffff;
+    }
+
+    .role.Leader {
+      color: var(--green);
+      border-color: #b9d8cb;
+      background: #eff8f3;
+    }
+
+    .role.Candidate {
+      color: var(--orange);
+      border-color: #e6c8a8;
+      background: #fff7ed;
+    }
+
+    .role.down {
+      color: var(--red);
+      border-color: #ecc3bf;
+      background: #fff5f4;
+    }
+
+    .forms {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .form {
+      display: grid;
+      gap: 10px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: #fbfcfd;
+    }
+
+    .form h3 {
+      margin: 0;
+      font-size: 13px;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .switch {
+      display: inline-flex;
+      gap: 7px;
+      align-items: center;
+      color: var(--muted);
+      font-size: 13px;
+      user-select: none;
+    }
+
+    .switch input {
+      width: 16px;
+      min-height: 16px;
+    }
+
+    pre {
+      margin: 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font: 12px/1.45 ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+      color: #26333b;
+    }
+
+    .output {
+      max-height: 420px;
+      overflow: auto;
+      background: #fbfcfd;
+    }
+
+    .events {
+      display: grid;
+      gap: 8px;
+      max-height: 260px;
+      overflow: auto;
+    }
+
+    .event {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 9px 10px;
+      background: #ffffff;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .event strong {
+      color: var(--text);
+    }
+
+    .ok {
+      color: var(--green);
+    }
+
+    .bad {
+      color: var(--red);
+    }
+
+    @media (max-width: 980px) {
+      .topbar,
+      .toolbar,
+      main,
+      .forms,
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      .topbar {
+        align-items: stretch;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <div class="topbar">
+      <div class="brand">
+        <div class="mark">KV</div>
+        <div>
+          <h1>Raft KV Console</h1>
+          <p id="subtitle">Connecting to the local cluster</p>
+        </div>
+      </div>
+      <div class="toolbar">
+        <label>
+          Node API base
+          <input id="baseInput" autocomplete="off">
+        </label>
+        <div class="ports" aria-label="quick ports">
+          <button data-port="8001">8001</button>
+          <button data-port="8002">8002</button>
+          <button data-port="8003">8003</button>
+          <button data-port="8004">8004</button>
+          <button data-port="8005">8005</button>
+        </div>
+        <div class="actions">
+          <button id="refreshBtn" class="primary">Refresh</button>
+          <label class="switch"><input id="autoRefresh" type="checkbox" checked> Auto</label>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <section class="stack">
+        <section class="panel">
+          <header>
+            <h2>Cluster</h2>
+            <span id="clusterState" class="ok">idle</span>
+          </header>
+          <div class="panel-body stack">
+            <div class="stats">
+              <div class="stat"><span>Connected node</span><strong id="statNode">-</strong></div>
+              <div class="stat"><span>Role</span><strong id="statRole">-</strong></div>
+              <div class="stat"><span>Leader</span><strong id="statLeader">-</strong></div>
+              <div class="stat"><span>Commit / Applied</span><strong id="statCommit">-</strong></div>
+            </div>
+            <div class="panel output">
+              <table>
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>API</th>
+                    <th>Role</th>
+                    <th>Term</th>
+                    <th>Commit</th>
+                    <th>Log</th>
+                    <th>Snapshot</th>
+                  </tr>
+                </thead>
+                <tbody id="nodesBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <header>
+            <h2>Key Value</h2>
+            <span id="kvState">leader routed</span>
+          </header>
+          <div class="panel-body">
+            <div class="forms">
+              <div class="form">
+                <h3>Write</h3>
+                <label>Key <input id="putKey" value="name"></label>
+                <label>Value <input id="putValue" value="raft"></label>
+                <div class="actions">
+                  <button id="putBtn" class="primary">Put</button>
+                  <button id="deleteBtn" class="danger">Delete</button>
+                </div>
+              </div>
+              <div class="form">
+                <h3>Read</h3>
+                <label>Key <input id="getKey" value="name"></label>
+                <div class="actions">
+                  <button id="getBtn" class="primary">Get</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel">
+          <header>
+            <h2>Membership</h2>
+            <span>teaching mode</span>
+          </header>
+          <div class="panel-body">
+            <div class="forms">
+              <div class="form">
+                <h3>Add node</h3>
+                <label>ID <input id="addId" value="4"></label>
+                <label>API address <input id="addApi" value="127.0.0.1:8004"></label>
+                <label>Raft address <input id="addRaft" value="127.0.0.1:9004"></label>
+                <label>Data dir <input id="addData" value="data/node4"></label>
+                <button id="addBtn" class="primary">Add</button>
+              </div>
+              <div class="form">
+                <h3>Remove node</h3>
+                <label>ID <input id="removeId" value="4"></label>
+                <button id="removeBtn" class="danger">Remove</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <aside class="stack">
+        <section class="panel">
+          <header>
+            <h2>Response</h2>
+            <button id="clearBtn">Clear</button>
+          </header>
+          <div class="panel-body output">
+            <pre id="responseBox">{}</pre>
+          </div>
+        </section>
+        <section class="panel">
+          <header>
+            <h2>Activity</h2>
+          </header>
+          <div class="panel-body">
+            <div id="events" class="events"></div>
+          </div>
+        </section>
+      </aside>
+    </main>
+  </div>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const state = {
+      base: window.location.origin,
+      timer: null,
+      lastLeaderBase: ""
+    };
+
+    function normalizeBase(value) {
+      const raw = String(value || "").trim();
+      if (!raw) return window.location.origin;
+      return raw.startsWith("http://") || raw.startsWith("https://") ? raw.replace(/\/+$/, "") : `http://${raw}`.replace(/\/+$/, "");
+    }
+
+    function pretty(value) {
+      return JSON.stringify(value, null, 2);
+    }
+
+    function setResponse(value) {
+      $("responseBox").textContent = typeof value === "string" ? value : pretty(value);
+    }
+
+    function eventLine(label, detail, ok = true) {
+      const row = document.createElement("div");
+      row.className = "event";
+      const time = new Date().toLocaleTimeString();
+      row.innerHTML = `<strong>${label}</strong> <span class="${ok ? "ok" : "bad"}">${ok ? "ok" : "failed"}</span><br>${time} - ${detail}`;
+      $("events").prepend(row);
+      while ($("events").children.length > 12) $("events").lastChild.remove();
+    }
+
+    async function request(path, options = {}, base = state.base) {
+      const headers = Object.assign({}, options.headers || {});
+      const init = Object.assign({}, options, { headers });
+      const response = await fetch(`${base}${path}`, init);
+      const text = await response.text();
+      let body = text;
+      try {
+        body = text ? JSON.parse(text) : {};
+      } catch (_) {}
+      return { ok: response.ok, status: response.status, body, base };
+    }
+
+    function jsonPost(body) {
+      return {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body)
+      };
+    }
+
+    async function leaderBase() {
+      const leader = await request("/leader");
+      if (leader.ok && leader.body && leader.body.leader_addr) {
+        state.lastLeaderBase = `http://${leader.body.leader_addr}`;
+        return state.lastLeaderBase;
+      }
+      return state.base;
+    }
+
+    async function leaderRequest(path, options) {
+      let base = await leaderBase();
+      let result = await request(path, options, base);
+      if (result.status === 409 && result.body && result.body.leader_addr) {
+        base = `http://${result.body.leader_addr}`;
+        state.lastLeaderBase = base;
+        result = await request(path, options, base);
+      }
+      return result;
+    }
+
+    function renderCurrentStatus(status) {
+      $("statNode").textContent = status ? `node${status.id}` : "-";
+      $("statRole").textContent = status ? status.role : "-";
+      $("statLeader").textContent = status && status.leader_id ? `node${status.leader_id}` : "-";
+      $("statCommit").textContent = status ? `${status.commit_index} / ${status.last_applied}` : "-";
+      $("subtitle").textContent = status ? `${state.base} - term ${status.term}` : state.base;
+    }
+
+    function rowFor(peer, statusResult) {
+      const tr = document.createElement("tr");
+      if (!statusResult.ok) {
+        tr.innerHTML = `<td>${peer.id}</td><td>${peer.api_addr}</td><td><span class="role down">Down</span></td><td>-</td><td>-</td><td>-</td><td>-</td>`;
+        return tr;
+      }
+      const s = statusResult.body;
+      tr.innerHTML = [
+        `<td>${peer.id}</td>`,
+        `<td>${peer.api_addr}</td>`,
+        `<td><span class="role ${s.role}">${s.role}</span></td>`,
+        `<td>${s.term}</td>`,
+        `<td>${s.commit_index}</td>`,
+        `<td>${s.log_len} / ${s.last_log_index}</td>`,
+        `<td>${s.snapshot_index}</td>`
+      ].join("");
+      return tr;
+    }
+
+    async function refresh() {
+      state.base = normalizeBase($("baseInput").value);
+      $("baseInput").value = state.base;
+      $("clusterState").textContent = "refreshing";
+      try {
+        const cluster = await request("/cluster");
+        if (!cluster.ok) throw new Error(pretty(cluster.body));
+        const peers = Array.isArray(cluster.body.peers) ? cluster.body.peers : [];
+        renderCurrentStatus(cluster.body.status);
+        const rows = await Promise.all(peers.map(async (peer) => {
+          const status = await request("/status", {}, `http://${peer.api_addr}`).catch((err) => ({ ok: false, body: String(err) }));
+          return rowFor(peer, status);
+        }));
+        $("nodesBody").replaceChildren(...rows);
+        $("clusterState").textContent = "connected";
+        $("clusterState").className = "ok";
+        setResponse(cluster.body);
+      } catch (err) {
+        $("clusterState").textContent = "disconnected";
+        $("clusterState").className = "bad";
+        renderCurrentStatus(null);
+        $("nodesBody").replaceChildren();
+        setResponse(String(err));
+      }
+    }
+
+    async function runOperation(label, fn) {
+      try {
+        const result = await fn();
+        setResponse(result.body);
+        eventLine(label, `${result.status} from ${result.base}`, result.ok);
+        await refresh();
+      } catch (err) {
+        setResponse(String(err));
+        eventLine(label, String(err), false);
+      }
+    }
+
+    $("refreshBtn").addEventListener("click", refresh);
+    $("clearBtn").addEventListener("click", () => setResponse({}));
+    document.querySelectorAll("[data-port]").forEach((button) => {
+      button.addEventListener("click", () => {
+        $("baseInput").value = `http://127.0.0.1:${button.dataset.port}`;
+        refresh();
+      });
+    });
+
+    $("putBtn").addEventListener("click", () => runOperation("Put", () => leaderRequest("/kv/put", jsonPost({
+      key: $("putKey").value,
+      value: $("putValue").value
+    }))));
+
+    $("getBtn").addEventListener("click", () => runOperation("Get", () => leaderRequest(`/kv/get?key=${encodeURIComponent($("getKey").value)}`, {
+      method: "GET"
+    })));
+
+    $("deleteBtn").addEventListener("click", () => runOperation("Delete", () => leaderRequest("/kv/delete", jsonPost({
+      key: $("putKey").value
+    }))));
+
+    $("addBtn").addEventListener("click", () => runOperation("Add node", () => leaderRequest("/cluster/add", jsonPost({
+      id: Number($("addId").value),
+      api_addr: $("addApi").value,
+      raft_addr: $("addRaft").value,
+      data_dir: $("addData").value
+    }))));
+
+    $("removeBtn").addEventListener("click", () => runOperation("Remove node", () => leaderRequest("/cluster/remove", jsonPost({
+      id: Number($("removeId").value)
+    }))));
+
+    $("autoRefresh").addEventListener("change", () => {
+      if (state.timer) clearInterval(state.timer);
+      state.timer = $("autoRefresh").checked ? setInterval(refresh, 2500) : null;
+    });
+
+    $("baseInput").value = state.base;
+    state.timer = setInterval(refresh, 2500);
+    refresh();
+  </script>
+</body>
+</html>

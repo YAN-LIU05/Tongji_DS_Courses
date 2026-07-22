@@ -1,0 +1,90 @@
+# Core AI / ML / data science
+pytorch/pytorch
+tensorflow/tensorflow
+huggingface/transformers
+langchain-ai/langchain
+run-llama/llama_index
+vllm-project/vllm
+ollama/ollama
+open-webui/open-webui
+keras-team/keras
+jax-ml/jax
+numpy/numpy
+pandas-dev/pandas
+scikit-learn/scikit-learn
+ray-project/ray
+mlflow/mlflow
+openai/openai-python
+microsoft/LightGBM
+dmlc/xgboost
+facebookresearch/faiss
+opencv/opencv
+ultralytics/ultralytics
+
+# Vector database / AI infrastructure
+milvus-io/milvus
+qdrant/qdrant
+weaviate/weaviate
+chroma-core/chroma
+langgenius/dify
+PaddlePaddle/Paddle
+
+# Data engineering / big data
+apache/spark
+apache/flink
+apache/kafka
+apache/airflow
+apache/superset
+apache/doris
+apache/seatunnel
+duckdb/duckdb
+elastic/elasticsearch
+
+# Cloud native / DevOps / observability
+kubernetes/kubernetes
+helm/helm
+docker/compose
+hashicorp/terraform
+ansible/ansible
+prometheus/prometheus
+grafana/grafana
+argoproj/argo-cd
+istio/istio
+
+# Web frameworks / app frameworks
+fastapi/fastapi
+django/django
+pallets/flask
+encode/starlette
+streamlit/streamlit
+gradio-app/gradio
+plotly/plotly.py
+jupyter/notebook
+jupyterlab/jupyterlab
+vercel/next.js
+vuejs/core
+sveltejs/svelte
+angular/angular
+ant-design/ant-design
+
+# Databases / backend platforms
+supabase/supabase
+prisma/prisma
+typeorm/typeorm
+hasura/graphql-engine
+appwrite/appwrite
+
+# Asia-focused and globally active projects
+pingcap/tidb
+alibaba/nacos
+alibaba/spring-cloud-alibaba
+apache/echarts
+baidu/amis
+Tencent/ncnn
+misskey-dev/misskey
+
+# Europe / international community projects
+nextcloud/server
+home-assistant/core
+openhab/openhab-addons
+prefecthq/prefect

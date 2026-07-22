@@ -1,0 +1,5 @@
+{
+  "deepseek_api_key": "sk-",
+  "default_framework": "requests",
+  "output_dir": "output"
+}
